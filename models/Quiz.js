@@ -1,19 +1,27 @@
-//this will need fixing....
 
-const { Model, DataTypes} = require ("sequelize")
-
-const sequelize = require("../config/connection")
+const { Model, DataTypes } = require("sequelize");
+const sequelize = require("../config/connection");
 
 class Quiz extends Model {}
 
 Quiz.init(
-    {
-        title: DataTypes.STRING,
-        body: DataTypes.STRING
+
+  {
+    id: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      primaryKey: true,
+      autoIncrement: true,
     },
-    {
-        sequelize
-    }
+  },
+  {
+    sequelize,
+    timestamps: false,
+    freezeTableName: true,
+    underscored: true,
+    modelName: "Quiz",
+  }
 );
 
-module.exports = Quiz
+module.exports = Quiz;
+
