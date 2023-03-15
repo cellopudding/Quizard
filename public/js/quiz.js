@@ -9,12 +9,13 @@ const question = document.querySelector(".question-container");
 const questionCard = document.querySelector(".question-card");
 
 function startQuiz() {
+  console.log(this);
   // hide start screen
   var categoriesScreen = document.querySelector(".categories-container");
   categoriesScreen.setAttribute("class", "hide");
 
   // will need to update this to some kind of changeColor function
-  questionCard.setAttribute("id", "science");
+  questionCard.classList.add(this.getAttribute("id"));
 
   // un-hide questions section
   question.removeAttribute("class", "hide");
@@ -29,22 +30,22 @@ for (const category of categories) {
 var newQuestion = document.getElementById("questionbtn");
 
 // need to replace with our API
-function getApi() {
-  var requestUrl = "https://the-trivia-api.com/api/questions?limit=1";
+// function getApi() {
+//   var requestUrl = "https://the-trivia-api.com/api/questions?limit=1";
 
-  fetch(requestUrl)
-    .then(function (response) {
-      return response.json();
-    })
-    .then(function (data) {
-      console.log(data[0].question);
-      console.log(data[0].correctAnswer);
-      console.log(data[0].incorrectAnswers[0]);
-      console.log(data[0].incorrectAnswers[1]);
-      console.log(data[0].incorrectAnswers[2]);
-      document.getElementById("generate-question").innerHTML = data[0].question;
-    });
-}
+//   fetch(requestUrl)
+//     .then(function (response) {
+//       return response.json();
+//     })
+//     .then(function (data) {
+//       console.log(data[0].question);
+//       console.log(data[0].correctAnswer);
+//       console.log(data[0].incorrectAnswers[0]);
+//       console.log(data[0].incorrectAnswers[1]);
+//       console.log(data[0].incorrectAnswers[2]);
+//       document.getElementById("generate-question").innerHTML = data[0].question;
+//     });
+// }
 
 newQuestion.addEventListener("click", getApi);
 
