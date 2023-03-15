@@ -1,0 +1,212 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Choose a Category</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Fredoka:wght@700&family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../public/css/style.css" />
+    <script defer src="../public/js/quiz.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand navbar-dark py-2 fixed-top">
+      <div class="container">
+        <!-- <img
+          src="../public/assets/image.png"
+          alt="welcome image"
+          class="nav-image"
+        /> -->
+        <a href="./quiz.html" class="navbar-brand">Trivia Game</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="./login.html" class="nav-link">Log out</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section>
+      <div class="categories-container text-center m-5 p-5">
+        <div
+          class="row row-cols-3 g-5 text-center justify-content-center align-items-center"
+        >
+          <div class="col text-dark">
+            <h1 class="m-5">Welcome to Quiz Game!</h1>
+            <p>Choose a category to play.</p>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card category-card text-dark science" id="science">
+              <div class="card-body text-center">
+                <div class="h1 mt-2">
+                  <i class="bi bi-search"></i>
+                </div>
+                <h3 class="card-title mb-2">Science</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card category-card text-dark music" id="music">
+              <div class="card-body text-center">
+                <div class="h1 mt-2">
+                  <i class="bi bi-music-note-beamed"></i>
+                </div>
+                <h3 class="card-title mb-2">Music</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col"></div>
+          <div class="col-md-3">
+            <div class="card category-card text-dark film-tv" id="film-tv">
+              <div class="card-body text-center">
+                <div class="h1 mt-2">
+                  <i class="bi bi-film"></i>
+                </div>
+                <h3 class="card-title mb-2">Film & TV</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div
+              class="card category-card text-dark food-drink"
+              id="food-drink"
+            >
+              <div class="card-body text-center">
+                <div class="h1 mt-2">
+                  <i class="bi bi-cup-straw"></i>
+                </div>
+                <h3 class="card-title mb-2">Food & Drink</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col"></div>
+          <div class="col-md-3">
+            <div class="card category-card text-dark geography" id="geography">
+              <div class="card-body text-center">
+                <div class="h1 mt-2">
+                  <i class="bi bi-globe"></i>
+                </div>
+                <h3 class="card-title mb-2">Geography</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card category-card text-dark random" id="random">
+              <div class="card-body text-center">
+                <div class="h1 mt-2">
+                  <i class="bi bi-patch-question"></i>
+                </div>
+                <h3 class="card-title mb-2">General Knowledge</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="p-5 m-5">
+      <div class="question-container hide">
+        <div class="row text-center g-4 justify-content-center align-top">
+          <div class="col-4">
+            <img src="../lightbulbs.png" alt="" />
+          </div>
+
+          <div class="col-md-8">
+            <div class="card question-card text-dark m-5" id="question-card">
+              <div class="card-body text-center">
+                <h3 class="card-title mb-3" id="generate-question"></h3>
+                <div class="answer-buttons">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="exampleRadios"
+                      id="exampleRadios1"
+                      value="option1"
+                      checked
+                    />
+                    <label class="form-check-label" for="exampleRadios1">
+                      <!-- Answer 1 -->
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="exampleRadios"
+                      id="exampleRadios2"
+                      value="option2"
+                    />
+                    <label class="form-check-label" for="exampleRadios2">
+                      <!-- Answer 2 -->
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="exampleRadios"
+                      id="exampleRadios2"
+                      value="option2"
+                    />
+                    <label class="form-check-label" for="exampleRadios2">
+                      <!-- Answer 3 -->
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="exampleRadios"
+                      id="exampleRadios2"
+                      value="option2"
+                    />
+                    <label class="form-check-label" for="exampleRadios2">
+                      <!-- Answer 4 -->
+                    </label>
+                  </div>
+                </div>
+                <div>
+                  <button type="button" id="questionbtn" class="btn btn-dark">
+                    Submit
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="../public/js/signup.js"></script>
+  </body>
+</html>
