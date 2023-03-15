@@ -1,4 +1,7 @@
 const { Quiz } = require('../models');
+const sequelize = require('../config/connection');
+
+
 
 const QuizData = [
   {
@@ -12,5 +15,9 @@ const QuizData = [
   }
 ]
 
-const seedQuiz = () => Quiz.bulkbulkCreate(QuizData);
-module.exports = seedQuiz;
+const seedQuiz = async () => {
+  await sequelize.sync({force: true})
+  const results = await Quiz.bulkCreate(QuizData)
+console.log(results);
+};
+seedQuiz();

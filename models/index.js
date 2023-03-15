@@ -11,4 +11,5 @@ const Quiz = require('./Quiz');
 // });
 
 //TODO: make score table and establish relationship between User and Score
+//TODO: make score pivot table i.e. challenge 13 homework (product tag)
 module.exports = { User, Quiz };
