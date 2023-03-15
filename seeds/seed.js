@@ -1,4 +1,4 @@
-const { Quiz } = require('../models');
+const { Quiz } = require("../models");
 
 const QuizData = [
   {
