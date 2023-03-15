@@ -1,9 +1,11 @@
+
 const { Model, DataTypes } = require("sequelize");
 const sequelize = require("../config/connection");
 
 class Quiz extends Model {}
 
 Quiz.init(
+
   {
     id: {
       type: DataTypes.INTEGER,
@@ -50,3 +52,4 @@ Quiz.init(
 );
 
 module.exports = Quiz;
+
