@@ -39,7 +39,7 @@ router.get("/categories", async (req, res) => {
       include: [{ model: Quiz }],
     });
 
-    const user = userData.get({ plain: true });
+    const quizzes = quizData.map((quiz) => quiz.get({ plain: true }));
 
     res.render("categories", {
       ...user,
