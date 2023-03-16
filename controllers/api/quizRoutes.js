@@ -15,6 +15,60 @@ router.get('/category/randomize', async (req, res) => {
   }
 });
 
+router.get('/category/science', async (req, res) => {
+  try {
+    const newQuiz = await Quiz.findAll({
+      order: sequelize.random()
+    });
+    res.status(200).json(newQuiz);
+  } catch (err) {
+    res.status(400).json(err);
+  }
+});
+
+router.get('/category/geography', async (req, res) => {
+  try {
+    const newQuiz = await Quiz.findAll({
+      order: sequelize.random()
+    });
+    res.status(200).json(newQuiz);
+  } catch (err) {
+    res.status(400).json(err);
+  }
+});
+
+router.get('/category/music', async (req, res) => {
+  try {
+    const newQuiz = await Quiz.findAll({
+      order: sequelize.random()
+    });
+    res.status(200).json(newQuiz);
+  } catch (err) {
+    res.status(400).json(err);
+  }
+});
+
+router.get('/category/food & drink', async (req, res) => {
+  try {
+    const newQuiz = await Quiz.findAll({
+      order: sequelize.random()
+    });
+    res.status(200).json(newQuiz);
+  } catch (err) {
+    res.status(400).json(err);
+  }
+});
+
+router.get('/category/randomize', async (req, res) => {
+  try {
+    const newQuiz = await Quiz.findAll({
+      order: sequelize.random()
+    });
+    res.status(200).json(newQuiz);
+  } catch (err) {
+    res.status(400).json(err);
+  }
+});
 
 
 // router.post('/', withAuth, async (req, res) => {
