@@ -5,7 +5,7 @@ const sequelize = require('../config/connection');
 
 const QuizData = [
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "A Lamb",
     answerA: "A Lamb",
     answerB: "A Puppy",
@@ -15,7 +15,7 @@ const QuizData = [
       "In the nursery rhyme, what animal belonged to a girl named Mary?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "Afghani",
     answerA: "Afghani",
     answerB: "Rial",
@@ -24,7 +24,7 @@ const QuizData = [
     question: "What is the basic unit of currency for Afghanistan?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "Valetudinarian",
     answerA: "Valetudinarian",
     answerB: "Fudgel",
@@ -34,7 +34,7 @@ const QuizData = [
       "Which word is defined as 'a sickly or weak person, especially one who is constantly and morbidly concerned with his or her health'?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "The d in 'door'",
     answerA: "The d in 'door'",
     answerB: "The y in 'yellow'",
@@ -43,7 +43,7 @@ const QuizData = [
     question: "In phonetics, which of these is an example of a plosive sound?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "8",
     answerA: "8",
     answerB: "12",
@@ -52,7 +52,7 @@ const QuizData = [
     question: "How Many Furlongs Are There In A Mile?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "China",
     answerA: "China",
     answerB: "Greece",
@@ -62,7 +62,7 @@ const QuizData = [
       "In which country was natural gas first used as a source of energy?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "South Pole",
     answerA: "South Pole",
     answerB: "The Peak of Mount Everest",
@@ -71,7 +71,7 @@ const QuizData = [
     question: "In 1911 Roald Amundsen became the first person to reach where?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "Ernest Wiseman",
     answerA: "Ernest Wiseman",
     answerB: "Jeffrey Wallis",
@@ -80,7 +80,7 @@ const QuizData = [
     question: "What was the real name of Eric Morecambes partner?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "Woebegone",
     answerA: "Woebegone",
     answerB: "Ratoon",
@@ -89,7 +89,7 @@ const QuizData = [
     question: "Which word is defined as 'sad or miserable in appearance'?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "Obelus",
     answerA: "Obelus",
     answerB: "Gibberish",
@@ -98,7 +98,7 @@ const QuizData = [
     question: "Which word is defined as 'the symbol ÷'?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "Dipthong",
     answerA: "Dipthong",
     answerB: "Kakorrhaphiophobia",
@@ -108,7 +108,7 @@ const QuizData = [
       "Which word is defined as 'two vowel sounds joined in one syllable to form one speech sound, e.g. the sounds of “ou” in out and of “oy” in boy'?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "Sherwood forest",
     answerA: "Sherwood forest",
     answerB: "Nottingham",
@@ -117,7 +117,7 @@ const QuizData = [
     question: "Where did Robin Hood supposedly live?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "Juliett",
     answerA: "Juliett",
     answerB: "Jump",
@@ -127,7 +127,7 @@ const QuizData = [
       "What word is used in the NATO Phonetic Alphabet for the letter J?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "LXIX",
     answerA: "LXIX",
     answerB: "CXIX",
@@ -136,7 +136,7 @@ const QuizData = [
     question: "How do you write 69 in Roman numerals?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "Smicker",
     answerA: "Smicker",
     answerB: "Whiffler",
@@ -145,7 +145,7 @@ const QuizData = [
     question: "Which word is defined as 'to look amorously after somebody'?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "The n in 'no'",
     answerA: "The n in 'no'",
     answerB: "The d in 'door'",
@@ -154,7 +154,7 @@ const QuizData = [
     question: "In phonetics, which of these is an example of a nasal sound?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "Pastern",
     answerA: "Pastern",
     answerB: "Sole",
@@ -164,7 +164,7 @@ const QuizData = [
       "The part of the foot of a horse between the fetlock and the hoof is the __________",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "Snickersnee",
     answerA: "Snickersnee",
     answerB: "Curmudgeon",
@@ -174,7 +174,7 @@ const QuizData = [
       "Which word is defined as 'to engage in cut-and-thrust fighting with knives'?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "Conjubilant",
     answerA: "Conjubilant",
     answerB: "Jentacular",
@@ -183,7 +183,7 @@ const QuizData = [
     question: "Which word is defined as 'shouting together with joy'?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "Discombobulate",
     answerA: "Discombobulate",
     answerB: "Cacophony",
@@ -192,7 +192,7 @@ const QuizData = [
     question: "Which word is defined as 'to disconcert of confuse'?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "Water",
     answerA: "Water",
     answerB: "Jungle",
@@ -201,7 +201,7 @@ const QuizData = [
     question: "In What Environment Did Ichthysaurs Live",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "Bonsai",
     answerA: "Bonsai",
     answerB: "Ornamental Shrubbery",
@@ -211,7 +211,7 @@ const QuizData = [
       "What is the name given to the art of miniaturising trees and maintaining their small size?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "Cacophony",
     answerA: "Cacophony",
     answerB: "Cabotage",
@@ -221,7 +221,7 @@ const QuizData = [
       "Which word is defined as 'a harsh, discordant mixture of sounds'?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "Washington DC",
     answerA: "Washington DC",
     answerB: "New York City",
@@ -230,7 +230,7 @@ const QuizData = [
     question: "Where is Capitol Hill?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "Romeo",
     answerA: "Romeo",
     answerB: "Rwanda",
@@ -240,7 +240,7 @@ const QuizData = [
       "What word is used in the NATO Phonetic Alphabet for the letter R?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "Quire",
     answerA: "Quire",
     answerB: "Whiffler",
@@ -249,7 +249,7 @@ const QuizData = [
     question: "Which word is defined as 'two dozen sheets of paper'?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "The Hoover Dam",
     answerA: "The Hoover Dam",
     answerB: "The Three Gorges Dam",
@@ -258,7 +258,7 @@ const QuizData = [
     question: "Which Dam Harnesses The Colorado River",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "Amerigo Vespucci",
     answerA: "Amerigo Vespucci",
     answerB: "Aymeric Santiago",
@@ -267,7 +267,7 @@ const QuizData = [
     question: "After whom was America named?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "China",
     answerA: "China",
     answerB: "England",
@@ -276,7 +276,7 @@ const QuizData = [
     question: "Which nation invented Paper?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "Foal",
     answerA: "Foal",
     answerB: "Tiger",
@@ -285,7 +285,7 @@ const QuizData = [
     question: "What is the meaning of the name of the constellation Equuleus?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "The Netherlands ",
     answerA: "The Netherlands ",
     answerB: "Belgium",
@@ -294,7 +294,7 @@ const QuizData = [
     question: "KLM Is The National Airline Of Which Country?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "Agastopia",
     answerA: "Agastopia",
     answerB: "Dragoman",
@@ -304,7 +304,7 @@ const QuizData = [
       "Which word is defined as 'admiration of a particular part of someone’s body'?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "Erf",
     answerA: "Erf",
     answerB: "Billingsgate",
@@ -313,7 +313,7 @@ const QuizData = [
     question: "Which word is defined as 'a plot of land'?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "New Mexico",
     answerA: "New Mexico",
     answerB: "Nagasaki",
@@ -322,7 +322,7 @@ const QuizData = [
     question: "Where did the first atomic bomb explode?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "Whiffler",
     answerA: "Whiffler",
     answerB: "Firman",
@@ -332,7 +332,7 @@ const QuizData = [
       "Which word is defined as 'somebody who walks in front of you through a crowd'?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "The y in 'yellow'",
     answerA: "The y in 'yellow'",
     answerB: "The p in 'pin'",
@@ -342,7 +342,7 @@ const QuizData = [
       "In phonetics, which of these is an example of an approximant sound?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "8 Maids A Milking",
     answerA: "8 Maids A Milking",
     answerB: "8 Lords a Leaping",
@@ -352,7 +352,7 @@ const QuizData = [
       'What Did My True Love Give To Me On The "Eighth" Day Of Christmas"?',
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "Tittynope",
     answerA: "Tittynope",
     answerB: "Funambulist",
@@ -362,7 +362,7 @@ const QuizData = [
       "Which word is defined as 'a small quantity of something left over'?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "Three",
     answerA: "Three",
     answerB: "Four",
@@ -371,7 +371,7 @@ const QuizData = [
     question: "How many astronauts manned each Apollo flight?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "Bohemia",
     answerA: "Bohemia",
     answerB: "Prussia",
@@ -381,7 +381,7 @@ const QuizData = [
       'From the Christmas Carol "Good King Wenceslas", where was Good King Wenceslas the King of?',
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "De Militarized Zone",
     answerA: "De Militarized Zone",
     answerB: "Definite Multivariate Zone",
@@ -390,7 +390,7 @@ const QuizData = [
     question: "What does 'DMZ' stand for?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "Curmudgeon",
     answerA: "Curmudgeon",
     answerB: "Bumfuzzle",
@@ -399,7 +399,7 @@ const QuizData = [
     question: "Which word is defined as 'a bad-tempered person'?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "Foxtrot",
     answerA: "Foxtrot",
     answerB: "Forget",
@@ -409,7 +409,7 @@ const QuizData = [
       "What word is used in the NATO Phonetic Alphabet for the letter F?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "fricative",
     answerA: "fricative",
     answerB: "plosive",
@@ -419,7 +419,7 @@ const QuizData = [
       "In phonetics, the z in 'zoo' is an example of what kind of sound?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "Groke",
     answerA: "Groke",
     answerB: "Quomodocunquizing",
@@ -429,7 +429,7 @@ const QuizData = [
       "Which word is defined as 'an old Scots term meaning to look at somebody while they’re eating in the hope that they’ll give you some of their food'?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "Sprunt",
     answerA: "Sprunt",
     answerB: "Bumfuzzle",
@@ -439,7 +439,7 @@ const QuizData = [
       "Which word is defined as 'an old Scottish word meaning to chase girls around among the haystacks after dark'?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "Yarborough",
     answerA: "Yarborough",
     answerB: "Octothorpe",
@@ -449,7 +449,7 @@ const QuizData = [
       "Which word is defined as 'hand of cards containing no card above a nine'?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "Swan",
     answerA: "Swan",
     answerB: "Ring",
@@ -458,7 +458,7 @@ const QuizData = [
     question: "What is the meaning of the name of the constellation Cygnus?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "Bobsy-die",
     answerA: "Bobsy-die",
     answerB: "Groke",
@@ -467,7 +467,7 @@ const QuizData = [
     question: "Which word is defined as 'a great deal of fuss or trouble'?",
   },
   {
-    categroy: "General Knowledge",
+    category: "General Knowledge",
     correctAnswer: "Echo",
     answerA: "Echo",
     answerB: "Elton",
@@ -477,7 +477,7 @@ const QuizData = [
       "What word is used in the NATO Phonetic Alphabet for the letter E?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "The North Star",
     answerA: "The North Star",
     answerB: "Orion's Belt",
@@ -486,7 +486,7 @@ const QuizData = [
     question: "As what is Polaris also known?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "It faces backwards",
     answerA: "It faces backwards",
     answerB: "It is on their head",
@@ -495,7 +495,7 @@ const QuizData = [
     question: "What is an unusual feature of the wombat's pouch?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "Cloud",
     answerA: "Cloud",
     answerB: "Planet",
@@ -504,7 +504,7 @@ const QuizData = [
     question: "Cirrus and Cumulus are types of what?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "A Piglet",
     answerA: "A Piglet",
     answerB: "A Maggot",
@@ -513,7 +513,7 @@ const QuizData = [
     question: "What is the word for a young pig?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "Seat Belt",
     answerA: "Seat Belt",
     answerB: "Cat Eye",
@@ -523,7 +523,7 @@ const QuizData = [
       "What Vehicular Safety Device Was First Pantented By Ej Claghorn?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "A shoal",
     answerA: "A shoal",
     answerB: "A host",
@@ -532,7 +532,7 @@ const QuizData = [
     question: "What is the word for a group of herrings?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "Geology",
     answerA: "Geology",
     answerB: "Astronomy",
@@ -542,7 +542,7 @@ const QuizData = [
       "What is the name of the science that studies the origin, history, and structure of the Earth?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "A Maggot",
     answerA: "A Maggot",
     answerB: "An Owlet",
@@ -551,7 +551,7 @@ const QuizData = [
     question: "What is the word for a young fly?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "0",
     answerA: "0",
     answerB: "3",
@@ -560,7 +560,7 @@ const QuizData = [
     question: "How many moons does Mercury have?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "Rattlesnakes",
     answerA: "Rattlesnakes",
     answerB: "Spiders",
@@ -569,7 +569,7 @@ const QuizData = [
     question: "__________ gather in groups to sleep through the winter. ",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "Poisons",
     answerA: "Poisons",
     answerB: "Radiation",
@@ -578,7 +578,7 @@ const QuizData = [
     question: "What Is Toxicology The Study Of?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "Hardness",
     answerA: "Hardness",
     answerB: "Thickness",
@@ -587,7 +587,7 @@ const QuizData = [
     question: "What Is Moh's Scale A Measure Of?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "0",
     answerA: "0",
     answerB: "1",
@@ -596,7 +596,7 @@ const QuizData = [
     question: "How Many Humps Has A Dromedary Camel Got?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "pollen",
     answerA: "pollen",
     answerB: "musical instruments",
@@ -605,7 +605,7 @@ const QuizData = [
     question: "What is Palynology the study of?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "Mexico",
     answerA: "Mexico",
     answerB: "Russia",
@@ -614,7 +614,7 @@ const QuizData = [
     question: "From Which Country Does The Poinsettia Plant Originate",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "A Vixen",
     answerA: "A Vixen",
     answerB: "A Ewe",
@@ -623,7 +623,7 @@ const QuizData = [
     question: "What is the word for a female fox?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "32",
     answerA: "32",
     answerB: "2",
@@ -632,7 +632,7 @@ const QuizData = [
     question: "How many teeth does thr average adult human have?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "the effects of radiation upon living organisms",
     answerA: "the effects of radiation upon living organisms",
     answerB: "fossils of ancient life",
@@ -642,7 +642,7 @@ const QuizData = [
     question: "What is Actinobiology the study of?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "Calcium carbonate",
     answerA: "Calcium carbonate",
     answerB: "Calcium sulphate dihydrate",
@@ -651,7 +651,7 @@ const QuizData = [
     question: "What chemical has the formula CaCO3?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "Giovanni Schiaparelli",
     answerA: "Giovanni Schiaparelli",
     answerB: "Galileo Galiei",
@@ -660,7 +660,7 @@ const QuizData = [
     question: 'Who was the first person to notice "canals" on Mars?',
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "J. J. Thomson",
     answerA: "J. J. Thomson",
     answerB: "Albert Einstein",
@@ -669,7 +669,7 @@ const QuizData = [
     question: "Who discovered the electron?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "books, printing, and publishing; also called Bibliography",
     answerA: "books, printing, and publishing; also called Bibliography",
     answerB:
@@ -680,7 +680,7 @@ const QuizData = [
     question: "What is Bibliology the study of?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "Incisors",
     answerA: "Incisors",
     answerB: "Molars",
@@ -689,7 +689,7 @@ const QuizData = [
     question: "The teeth used for biting or cutting are known as _______.",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer:
       "the specialty in medicine that deals with diseases of the lungs and the respiratory tract",
     answerA:
@@ -700,7 +700,7 @@ const QuizData = [
     question: "What is Pulmonology the study of?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "the mathematical study of closeness and connectedness",
     answerA: "the mathematical study of closeness and connectedness",
     answerB:
@@ -712,7 +712,7 @@ const QuizData = [
     question: "What is Topology the study of?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "sleep",
     answerA: "sleep",
     answerB: "the effects of radiation upon living organisms",
@@ -722,7 +722,7 @@ const QuizData = [
     question: "What is Hypnology the study of?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "Amphibians",
     answerA: "Amphibians",
     answerB: "Mammals",
@@ -731,7 +731,7 @@ const QuizData = [
     question: "What are frogs?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "TNT",
     answerA: "TNT",
     answerB: "QuickSilver",
@@ -740,7 +740,7 @@ const QuizData = [
     question: "What is trinitrotoluene commonly known as?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "A barren",
     answerA: "A barren",
     answerB: "A sounder",
@@ -749,7 +749,7 @@ const QuizData = [
     question: "What is the word for a group of mules?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "Low Blood Sugar",
     answerA: "Low Blood Sugar",
     answerB: "High Cholesterol",
@@ -758,7 +758,7 @@ const QuizData = [
     question: "What Causes Hypoglycemia?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "A Buck",
     answerA: "A Buck",
     answerB: "A Stallion",
@@ -767,7 +767,7 @@ const QuizData = [
     question: "What is a male kangaroo known as?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "the study or exploration of caves",
     answerA: "the study or exploration of caves",
     answerB: "how to encrypt and decrypt secret messages",
@@ -776,7 +776,7 @@ const QuizData = [
     question: "What is Speleology the study of?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "animals",
     answerA: "animals",
     answerB: "the lymph system and glands",
@@ -786,7 +786,7 @@ const QuizData = [
     question: "What is Zoology the study of?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "Dodecagon",
     answerA: "Dodecagon",
     answerB: "Octagon",
@@ -795,7 +795,7 @@ const QuizData = [
     question: "What is the name of a shape with twelve sides?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "Galileo Galilei",
     answerA: "Galileo Galilei",
     answerB: "Nicolas Copernicus",
@@ -804,7 +804,7 @@ const QuizData = [
     question: "Who invented the telescope?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "Thomas Edison",
     answerA: "Thomas Edison",
     answerB: "Samuel Colt",
@@ -813,7 +813,7 @@ const QuizData = [
     question: "Who Invented The Gramophone?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "A litter",
     answerA: "A litter",
     answerB: "A field",
@@ -822,7 +822,7 @@ const QuizData = [
     question: "What is the word for a group of pups?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "Emperor",
     answerA: "Emperor",
     answerB: "King",
@@ -831,7 +831,7 @@ const QuizData = [
     question: "What Is The Largest Species Of Penguin?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "Tomato",
     answerA: "Tomato",
     answerB: "Garlic",
@@ -840,7 +840,7 @@ const QuizData = [
     question: "What Is Alicante A Variety Of?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "Mercury",
     answerA: "Mercury",
     answerB: "Silver",
@@ -849,7 +849,7 @@ const QuizData = [
     question: "Which Metal is Also Known As Quicksilver?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "A nye",
     answerA: "A nye",
     answerB: "A sedge",
@@ -858,7 +858,7 @@ const QuizData = [
     question: "What is the word for a group of pheasants?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "Lava",
     answerA: "Lava",
     answerB: "Ash",
@@ -867,7 +867,7 @@ const QuizData = [
     question: "The molten material from a volcano is ________",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "Table Salt",
     answerA: "Table Salt",
     answerB: "QuickSilver",
@@ -876,7 +876,7 @@ const QuizData = [
     question: "What is the common name for sodium chloride?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "Laxative",
     answerA: "Laxative",
     answerB: "Analgesic",
@@ -886,7 +886,7 @@ const QuizData = [
       "What is the word for a medicine that hastens the emptying of the bowels?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "Birch Tree",
     answerA: "Birch Tree",
     answerB: "Oak Tree",
@@ -895,7 +895,7 @@ const QuizData = [
     question: "Which type of tree is known for its silvery white bark?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "A Sow",
     answerA: "A Sow",
     answerB: "A Worker",
@@ -904,7 +904,7 @@ const QuizData = [
     question: "What would you call a female badger?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "Rabies",
     answerA: "Rabies",
     answerB: "Meningitis",
@@ -913,7 +913,7 @@ const QuizData = [
     question: "What Is Hydrophobia Better Known As",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "A Bull",
     answerA: "A Bull",
     answerB: "A Billy",
@@ -922,7 +922,7 @@ const QuizData = [
     question: "What is the word for a male yak?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "study of the mouth and its diseases",
     answerA: "study of the mouth and its diseases",
     answerB: "music in society, usually non-western music",
@@ -931,7 +931,7 @@ const QuizData = [
     question: "What is Stomatology the study of?",
   },
   {
-    categroy: "Science",
+    category: "Science",
     correctAnswer: "Louis Daguerre",
     answerA: "Louis Daguerre",
     answerB: "John Logie Baird",
@@ -940,7 +940,7 @@ const QuizData = [
     question: "Who Took The First Practical Photograph?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "The Beatles",
     answerA: "The Beatles",
     answerB: "Deep Purple",
@@ -949,7 +949,7 @@ const QuizData = [
     question: "Which English rock band released the album 'Help!'?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "Funkytown",
     answerA: "Funkytown",
     answerB: "Achy Breaky Heart",
@@ -958,7 +958,7 @@ const QuizData = [
     question: "Lipps, Inc. had a one hit wonder in 1980 with which song?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "Devo",
     answerA: "Devo",
     answerB: "MercyMe",
@@ -968,7 +968,7 @@ const QuizData = [
       'The Lee Dorsey Song "Working In A Coal Mine" Was Later Covered By Which Quirky Band"?',
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "The Beatles",
     answerA: "The Beatles",
     answerB: "Oasis",
@@ -977,7 +977,7 @@ const QuizData = [
     question: "Which English rock band released the song 'Hey Jude'?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "The Police",
     answerA: "The Police",
     answerB: "Level 42",
@@ -987,7 +987,7 @@ const QuizData = [
       "Which English rock band released the song 'Every Breath You Take'?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "Prince",
     answerA: "Prince",
     answerB: "James Brown",
@@ -997,7 +997,7 @@ const QuizData = [
       "With Which Artist Is The Funk Band 'The New Power Generation' Associated?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "Smile",
     answerA: "Smile",
     answerB: "Grin",
@@ -1006,7 +1006,7 @@ const QuizData = [
     question: "Which legendary Beach boys album was never completed?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "Young MC",
     answerA: "Young MC",
     answerB: "Blind Melon",
@@ -1015,7 +1015,7 @@ const QuizData = [
     question: "Who had a hit in 1989 with Bust a Move?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "Makin' It",
     answerA: "Makin' It",
     answerB: "Cum on Feel the Noize",
@@ -1024,7 +1024,7 @@ const QuizData = [
     question: "David Naughton had a one hit wonder with which song?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "Kajagoogoo",
     answerA: "Kajagoogoo",
     answerB: "Norman Greenbaum",
@@ -1033,7 +1033,7 @@ const QuizData = [
     question: "'Too Shy' was a one hit wonder in 1983 by which artist?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "Led Zeppelin",
     answerA: "Led Zeppelin",
     answerB: "Cocteau Twins",
@@ -1043,7 +1043,7 @@ const QuizData = [
       "Which English rock band released the song 'Good Times Bad Times'?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "Coldplay",
     answerA: "Coldplay",
     answerB: "Level 42",
@@ -1052,7 +1052,7 @@ const QuizData = [
     question: "Which British band released the studio album 'Ghost Stories'?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "The Jimi Hendrix Experience",
     answerA: "The Jimi Hendrix Experience",
     answerB: "Poison",
@@ -1062,7 +1062,7 @@ const QuizData = [
       "Which English-American psychedelic rock band released the album 'Electric Ladyland'?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "Ring of Fire",
     answerA: "Ring of Fire",
     answerB: "MacArthur Park",
@@ -1072,7 +1072,7 @@ const QuizData = [
       "Which song, originally recorded by Johnny Cash, was later covered by Wall of Voodoo?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "Crash Test Dummies",
     answerA: "Crash Test Dummies",
     answerB: "Cheryl Lynn",
@@ -1081,7 +1081,7 @@ const QuizData = [
     question: "Who had a hit in 1993 with Mmm Mmm Mmm Mmm?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "Ha*Ash",
     answerA: "Ha*Ash",
     answerB: "The Pussycat Dolls",
@@ -1090,7 +1090,7 @@ const QuizData = [
     question: "Which band includes 'Hanna Nicole'?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "American Woman",
     answerA: "American Woman",
     answerB: "The Man Who Sold the World",
@@ -1100,7 +1100,7 @@ const QuizData = [
       "Which song was originally recorded by The Guess Who and was later covered by Lenny Kravitz?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "The Beach Boys",
     answerA: "The Beach Boys",
     answerB: "The Velvet Underground",
@@ -1110,7 +1110,7 @@ const QuizData = [
       "Which American rock band released the song 'Wouldn't It Be Nice'?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "Guns N Roses",
     answerA: "Guns N Roses",
     answerB: "Sex Pistols",
@@ -1119,7 +1119,7 @@ const QuizData = [
     question: 'With Which Rock Band Does "Slash" Play Guitar?',
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "Eagles",
     answerA: "Eagles",
     answerB: "The Pussycat Dolls",
@@ -1128,7 +1128,7 @@ const QuizData = [
     question: "Which band includes 'Don Henley'?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: '"I Will Always Love You" by Whitney Houston',
     answerA: '"I Will Always Love You" by Whitney Houston',
     answerB: '"SpongeBob SquarePants Theme" by Painty the Pirate',
@@ -1138,7 +1138,7 @@ const QuizData = [
       'Which song begins with the lyrics: "If I should stay, I would only be in your way."?',
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "Can The Can",
     answerA: "Can The Can",
     answerB: "Do The Do",
@@ -1147,7 +1147,7 @@ const QuizData = [
     question: "What Was Suzi Quatro's First Hit In 1973?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "Elton John",
     answerA: "Elton John",
     answerB: "Mika",
@@ -1157,7 +1157,7 @@ const QuizData = [
       "Which English rock singer-songwriter, composer and pianist released the studio album 'Captain Fantastic and the Brown Dirt Cowboy'?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "You Light Up My Life",
     answerA: "You Light Up My Life",
     answerB: "Don't Wanna Fall in Love",
@@ -1166,7 +1166,7 @@ const QuizData = [
     question: "Debby Boone had a one hit wonder in 1977 with which song?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "Simon & Garfunkel",
     answerA: "Simon & Garfunkel",
     answerB: "The Beatles",
@@ -1175,7 +1175,7 @@ const QuizData = [
     question: "Who Sang El Condor Pasa (If I Could)",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "Percussion",
     answerA: "Percussion",
     answerB: "String",
@@ -1184,7 +1184,7 @@ const QuizData = [
     question: "What type of instrument is a marimba?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "Jonas Brothers",
     answerA: "Jonas Brothers",
     answerB: "The Pussycat Dolls",
@@ -1193,7 +1193,7 @@ const QuizData = [
     question: "Which band includes 'Joe Jonas'?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "The Reed",
     answerA: "The Reed",
     answerB: "The Bucket",
@@ -1203,7 +1203,7 @@ const QuizData = [
       "What Is The Sound Producing Equipment Element Of Many Woodwind Instrument Called?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "Queen",
     answerA: "Queen",
     answerB: "Level 42",
@@ -1212,7 +1212,7 @@ const QuizData = [
     question: "Which British rock band released the song 'Fat Bottomed Girls'?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "The Prodigy",
     answerA: "The Prodigy",
     answerB: "Squeeze",
@@ -1222,7 +1222,7 @@ const QuizData = [
       "Which English electronic dance music group released the song 'Firestarter'?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "Wagner",
     answerA: "Wagner",
     answerB: "Hoffman",
@@ -1231,7 +1231,7 @@ const QuizData = [
     question: "Whose Operas Include Tanhauser & Tristan Und Isolde?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "Bee Gees",
     answerA: "Bee Gees",
     answerB: "Level 42",
@@ -1240,7 +1240,7 @@ const QuizData = [
     question: "Which band includes 'Barry Gibb'?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "The Rolling Stones",
     answerA: "The Rolling Stones",
     answerB: "McFly",
@@ -1250,7 +1250,7 @@ const QuizData = [
       "Which English rock band released the studio album 'Let It Bleed'?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "Pink Floyd",
     answerA: "Pink Floyd",
     answerB: "Wings",
@@ -1259,7 +1259,7 @@ const QuizData = [
     question: "Which band includes 'Nick Mason'?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "Girls' Generation",
     answerA: "Girls' Generation",
     answerB: "Big Bang",
@@ -1268,7 +1268,7 @@ const QuizData = [
     question: "Which band includes 'Taeyeon'?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "Irving Berlin",
     answerA: "Irving Berlin",
     answerB: "Stephen Sondheim",
@@ -1277,7 +1277,7 @@ const QuizData = [
     question: `Who Wrote The Musical "There's No Business Like Show Business"?`,
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "It Takes Two",
     answerA: "It Takes Two",
     answerB: "I Touch Myself",
@@ -1286,7 +1286,7 @@ const QuizData = [
     question: "What song did Rob Base & DJ E-Z Rock have a hit with in 1988?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "Tchaikovsky",
     answerA: "Tchaikovsky",
     answerB: "Handel",
@@ -1295,7 +1295,7 @@ const QuizData = [
     question: "Who was the composer of 'The Nutcracker' ballet?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "Queen",
     answerA: "Queen",
     answerB: "Level 42",
@@ -1304,7 +1304,7 @@ const QuizData = [
     question: "Which band includes 'Roger Taylor'?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "The White Stripes",
     answerA: "The White Stripes",
     answerB: "The Pussycat Dolls",
@@ -1313,7 +1313,7 @@ const QuizData = [
     question: "Which band includes 'Jack White'?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "Rihanna",
     answerA: "Rihanna",
     answerB: "Drake",
@@ -1322,7 +1322,7 @@ const QuizData = [
     question: "Which singer released the studio album 'Anti'?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "Daft Punk",
     answerA: "Daft Punk",
     answerB: "Gong",
@@ -1331,7 +1331,7 @@ const QuizData = [
     question: "Which French electronica duo released the song 'One More Time'?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "The Stranglers",
     answerA: "The Stranglers",
     answerB: "Sex Pistols",
@@ -1340,7 +1340,7 @@ const QuizData = [
     question: "Who sang 'No More Heroes'?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "Take That",
     answerA: "Take That",
     answerB: "Talk Talk",
@@ -1349,7 +1349,7 @@ const QuizData = [
     question: "Which band includes 'Robbie Williams'?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "Nirvana",
     answerA: "Nirvana",
     answerB: "The Velvet Underground",
@@ -1359,7 +1359,7 @@ const QuizData = [
       "Which American rock band released the song 'Smells Like Teen Spirit'?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "Woodwind",
     answerA: "Woodwind",
     answerB: "Brass",
@@ -1368,7 +1368,7 @@ const QuizData = [
     question: "What type of instrument is a fife?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "Spice Girls",
     answerA: "Spice Girls",
     answerB: "Editors",
@@ -1377,7 +1377,7 @@ const QuizData = [
     question: "Which band includes 'Emma Bunton'?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "Pop Muzik",
     answerA: "Pop Muzik",
     answerB: "No Rain",
@@ -1386,7 +1386,7 @@ const QuizData = [
     question: "What song did M have a hit with in 1979?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "Sonic Youth",
     answerA: "Sonic Youth",
     answerB: "The Pussycat Dolls",
@@ -1395,7 +1395,7 @@ const QuizData = [
     question: "Which band includes 'Jim O'Rourke'?",
   },
   {
-    categroy: "Music",
+    category: "Music",
     correctAnswer: "AC/DC",
     answerA: "AC/DC",
     answerB: "Pendulum",
@@ -1405,7 +1405,7 @@ const QuizData = [
       "Which Australian hard rock band released the studio album 'Back in Black'?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer:
       "A slacker seeks restitution for a rug ruined by debt collectors.",
     answerA: "A slacker seeks restitution for a rug ruined by debt collectors.",
@@ -1418,7 +1418,7 @@ const QuizData = [
     question: "What is the plot of the movie The Big Lebowski?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer:
       "An examination of the ways in which war impacts the lives of several friends.",
     answerA:
@@ -1431,7 +1431,7 @@ const QuizData = [
     question: "What is the plot of the movie The Deer Hunter?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: `"I'm walking here! I'm walking here!"`,
     answerA: `"I'm walking here! I'm walking here!"`,
     answerB: '"I feel the need - the need for speed!"',
@@ -1440,7 +1440,7 @@ const QuizData = [
     question: "Which of these quotes is from the film 'Midnight Cowboy'?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "On Her Majesty's Secret Service",
     answerA: "On Her Majesty's Secret Service",
     answerB: "Live and Let Die",
@@ -1449,7 +1449,7 @@ const QuizData = [
     question: "Which James Bond Movie Is Set During The Christmas Period?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "Jennifer Connelly",
     answerA: "Jennifer Connelly",
     answerB: "Helen Mirren",
@@ -1459,7 +1459,7 @@ const QuizData = [
       "Who won the 2001 Academy Award for Best Supporting Actress for playing the role of Alicia Nash in A Beautiful Mind?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer:
       "A family heads to a hotel for the winter where a presence influences the father into violence.",
     answerA:
@@ -1473,7 +1473,7 @@ const QuizData = [
     question: "What is the plot of the movie The Shining?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: '"Nobody makes me bleed my own blood. Nobody!"',
     answerA: '"Nobody makes me bleed my own blood. Nobody!"',
     answerB: '"Are you not entertained?"',
@@ -1485,7 +1485,7 @@ const QuizData = [
       "Which of these quotes is from the film 'Dodgeball: A True Underdog Story'?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: '"I love the smell of napalm in the morning."',
     answerA: '"I love the smell of napalm in the morning."',
     answerB: `"We'll always have Paris."`,
@@ -1494,7 +1494,7 @@ const QuizData = [
     question: "Which of these quotes is from the film 'Apocalypse Now'?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "M",
     answerA: "M",
     answerB: "Austin Powers: International Man of Mystery",
@@ -1503,7 +1503,7 @@ const QuizData = [
     question: "Which film contains the character 'Hans Beckert'?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "Cate Blanchett",
     answerA: "Cate Blanchett",
     answerB: "Laura Linney",
@@ -1513,7 +1513,7 @@ const QuizData = [
       "Who won the 2004 Academy Award for Best Supporting Actress for playing the role of Katharine Hepburn in The Aviator?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: '"La-dee-da, la-dee-da."',
     answerA: '"La-dee-da, la-dee-da."',
     answerB: `"Who's on first."`,
@@ -1523,7 +1523,7 @@ const QuizData = [
     question: "Which of these quotes is from the film 'Annie Hall'?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "Million Dollar Baby",
     answerA: "Million Dollar Baby",
     answerB: "The Aviator",
@@ -1532,7 +1532,7 @@ const QuizData = [
     question: "Which film won the Academy Award for Best Picture in 2004?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "Brad Pitt",
     answerA: "Brad Pitt",
     answerB: "Nicholas Cage",
@@ -1542,7 +1542,7 @@ const QuizData = [
       "In The Movie 'Interview With The Vampire' Who Played The Vampire Being Interviewed?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "Madonna",
     answerA: "Madonna",
     answerB: "Shirley Bassey",
@@ -1552,7 +1552,7 @@ const QuizData = [
       "Who performed the theme song to the James Bond film Die Another Day?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "Kaa",
     answerA: "Kaa",
     answerB: "Baloo",
@@ -1562,7 +1562,7 @@ const QuizData = [
       "What is the name of the snake in the Disney film The Jungle Book?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "Gladiator",
     answerA: "Gladiator",
     answerB: "Chocolat",
@@ -1571,7 +1571,7 @@ const QuizData = [
     question: "Which film won the Academy Award for Best Picture in 2000?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "1980",
     answerA: "1980",
     answerB: "1975",
@@ -1580,7 +1580,7 @@ const QuizData = [
     question: "In which year was The Shining first released in the cinema?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "Crash",
     answerA: "Crash",
     answerB: "Brokeback Mountain",
@@ -1589,7 +1589,7 @@ const QuizData = [
     question: "Which film won the Academy Award for Best Picture in 2005?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "Tim Curry",
     answerA: "Tim Curry",
     answerB: "Aaron Paul",
@@ -1599,7 +1599,7 @@ const QuizData = [
       "Which actor has played roles in films including The Rocky Horror Picture Show and The Hunt for Red October?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "Duran Duran",
     answerA: "Duran Duran",
     answerB: "Garbage",
@@ -1609,7 +1609,7 @@ const QuizData = [
       "Who performed the theme song to the James Bond film A View to a Kill?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: '"Open the pod bay doors, please, HAL."',
     answerA: '"Open the pod bay doors, please, HAL."',
     answerB: `"Forget it, Jake, it's Chinatown."`,
@@ -1618,7 +1618,7 @@ const QuizData = [
     question: "Which of these quotes is from the film '2001: A Space Odyssey'?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "Spilled champagne",
     answerA: "Spilled champagne",
     answerB: "A lightning strike",
@@ -1627,7 +1627,7 @@ const QuizData = [
     question: "What caused the computer in Electric Dreams to become alive?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "The Sting",
     answerA: "The Sting",
     answerB: "American Graffiti",
@@ -1636,7 +1636,7 @@ const QuizData = [
     question: "Which film won the Academy Award for Best Picture in 1973?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "Scooby Doo",
     answerA: "Scooby Doo",
     answerB: "Spongebob Squarepants",
@@ -1645,7 +1645,7 @@ const QuizData = [
     question: "In Which Cartoon Might You Encounter 'The Mystery Machine'?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "Marlon Brando",
     answerA: "Marlon Brando",
     answerB: "Robert Shaw",
@@ -1654,7 +1654,7 @@ const QuizData = [
     question: "Which actor played the role of Vito Corleone in The Godfather?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "Around the World in 80 Days",
     answerA: "Around the World in 80 Days",
     answerB: "Friendly Persuasion",
@@ -1663,7 +1663,7 @@ const QuizData = [
     question: "Which film won the Academy Award for Best Picture in 1956?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: '"I have always depended on the kindness of strangers."',
     answerA: '"I have always depended on the kindness of strangers."',
     answerB: `"A boy's best friend is his mother."`,
@@ -1673,7 +1673,7 @@ const QuizData = [
       "Which of these quotes is from the film 'A Streetcar Named Desire'?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "2001",
     answerA: "2001",
     answerB: "1992",
@@ -1683,7 +1683,7 @@ const QuizData = [
       "In which year was The Lord of the Rings: The Fellowship of the Ring first released in the cinema?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "Jim Carrey",
     answerA: "Jim Carrey",
     answerB: "Gerard Butler",
@@ -1693,7 +1693,7 @@ const QuizData = [
       "Which actor has played roles in films including Batman Forever and The Mask?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "Chevy Chase",
     answerA: "Chevy Chase",
     answerB: "Steve Martin",
@@ -1703,7 +1703,7 @@ const QuizData = [
       "Who plays the lead role of the accident prone Clark Griswold in the 1989 'National Lampoon's Christmas Vacation''?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "Indiana Jones and the Last Crusade",
     answerA: "Indiana Jones and the Last Crusade",
     answerB: "The Godfather",
@@ -1713,7 +1713,7 @@ const QuizData = [
       "Name the movie that matches the following plot summary: 'After his father goes missing, a professor finds himself in a search for the Holy Grail.'",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "Pennsylvania",
     answerA: "Pennsylvania",
     answerB: "Ohio",
@@ -1723,7 +1723,7 @@ const QuizData = [
       "In which American state is George A. Romero's 1968 film 'Night Of The Living Dead' set?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "Naomi Watts",
     answerA: "Naomi Watts",
     answerB: "Melissa Leo",
@@ -1733,7 +1733,7 @@ const QuizData = [
       "Which actor has featued in films including Birdman and Twin Peaks?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "Jonah Hill",
     answerA: "Jonah Hill",
     answerB: "Javier Bardem",
@@ -1743,7 +1743,7 @@ const QuizData = [
       "Which actor has featured in films including The Wolf of Wall Street and Moneyball?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "Louis Gossett, Jr.",
     answerA: "Louis Gossett, Jr.",
     answerB: "Charles Durning",
@@ -1753,7 +1753,7 @@ const QuizData = [
       "Who won the 1982 Academy Award for Best Supporting Actor for playing the role of Sgt. Emil Foley in An Officer and a Gentleman?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "Pierce Brosnan",
     answerA: "Pierce Brosnan",
     answerB: "George Lazenby",
@@ -1762,7 +1762,7 @@ const QuizData = [
     question: "Who played the role of James Bond in Tomorrow Never Dies?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "Green Book",
     answerA: "Green Book",
     answerB: "Platoon",
@@ -1772,7 +1772,7 @@ const QuizData = [
       "Name the movie that matches the following plot summary: 'A working-class bouncer becomes the driver of an African-American classical pianist.'",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "Being There",
     answerA: "Being There",
     answerB: "The Godfather",
@@ -1781,7 +1781,7 @@ const QuizData = [
     question: "Which film contains the character 'Chance the Gardener'?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: '"I’m just one stomach flu away from my goal weight."',
     answerA: '"I’m just one stomach flu away from my goal weight."',
     answerB: `"I'll be back."`,
@@ -1790,7 +1790,7 @@ const QuizData = [
     question: "Which of these quotes is from the film 'The Devil Wears Prada'?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "Stromboli",
     answerA: "Stromboli",
     answerB: "The Evil Queen",
@@ -1799,7 +1799,7 @@ const QuizData = [
     question: "What is the name of the villain in Pinocchio?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "George Lazenby",
     answerA: "George Lazenby",
     answerB: "Roger Moore",
@@ -1809,7 +1809,7 @@ const QuizData = [
       "Who played the role of James Bond in On Her Majesty's Secret Service?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "Sean Penn",
     answerA: "Sean Penn",
     answerB: "Richard Jenkins",
@@ -1819,7 +1819,7 @@ const QuizData = [
       "Who won the 2008 Academy Award for Best Leading Actor for playing the role of Harvey Milk in Milk?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "Parasite",
     answerA: "Parasite",
     answerB: "Vertigo",
@@ -1829,7 +1829,7 @@ const QuizData = [
       "Name the movie that matches the following plot summary: 'A destitute family builds a symbiotic relationship with a wealthy family.'",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "David Yates",
     answerA: "David Yates",
     answerB: "Steven Spielberg",
@@ -1839,7 +1839,7 @@ const QuizData = [
       "Which director directed Harry Potter and the Order of the Phoenix?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "No Country for Old Men",
     answerA: "No Country for Old Men",
     answerB: "Hacksaw Ridge",
@@ -1849,7 +1849,7 @@ const QuizData = [
       "Name the movie that matches the following plot summary: 'Violence and mayhem ensue after a man stumbles upon more than two million dollars.'",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "Mickey Rooney",
     answerA: "Mickey Rooney",
     answerB: "Stephen Fry",
@@ -1859,7 +1859,7 @@ const QuizData = [
       "Which actor has featued in films including Phantom of the Megaplex and Breakfast at Tiffany's?",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "Braveheart",
     answerA: "Braveheart",
     answerB: "Trainspotting",
@@ -1869,7 +1869,7 @@ const QuizData = [
       "Name the movie that matches the following plot summary: 'A Scottish warrior leads his countrymen in a rebellion to free his homeland.'",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "Coco",
     answerA: "Coco",
     answerB: "Gone Girl",
@@ -1879,7 +1879,7 @@ const QuizData = [
       "Name the movie that matches the following plot summary: 'An aspiring musician enters the Land of the Dead to find his great-great-grandfather, a legendary singer.'",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer: "City of God",
     answerA: "City of God",
     answerB: "Die Hard",
@@ -1889,7 +1889,7 @@ const QuizData = [
       "Name the movie that matches the following plot summary: 'In the slums of Rio, two kids' paths diverge as one becomes a photographer and the other a kingpin.'",
   },
   {
-    categroy: "Film & TV",
+    category: "Film & TV",
     correctAnswer:
       "After a prince is betrayed and enslaved, he regains his freedom and comes back for revenge.",
     answerA:
@@ -1903,7 +1903,7 @@ const QuizData = [
     question: "What is the plot of the movie Ben-Hur?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Canelazo",
     answerA: "Canelazo",
     answerB: "Kumis",
@@ -1912,7 +1912,7 @@ const QuizData = [
     question: "Which of these drinks would you associate with Equador?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Sweden ",
     answerA: "Sweden ",
     answerB: "Denmark",
@@ -1921,7 +1921,7 @@ const QuizData = [
     question: "Which country does one associate with 'Lussekatter'?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Puerto Rico",
     answerA: "Puerto Rico",
     answerB: "Portugal",
@@ -1930,7 +1930,7 @@ const QuizData = [
     question: "In which country is pitorro a popular drink?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Cannelloni",
     answerA: "Cannelloni",
     answerB: "Garganelli",
@@ -1939,7 +1939,7 @@ const QuizData = [
     question: "Which pasta's name means 'Large reeds'?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Whelk ",
     answerA: "Whelk ",
     answerB: "Escargot",
@@ -1948,7 +1948,7 @@ const QuizData = [
     question: "The Marine Snail Is Better Known As What",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Penne",
     answerA: "Penne",
     answerB: "Ravioli",
@@ -1957,7 +1957,7 @@ const QuizData = [
     question: "Which pasta's name means 'Pens'?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Taco",
     answerA: "Taco",
     answerB: "Sushi",
@@ -1966,7 +1966,7 @@ const QuizData = [
     question: "Which of these is a popular dish in Mexico?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Veal ",
     answerA: "Veal ",
     answerB: "Beef",
@@ -1975,7 +1975,7 @@ const QuizData = [
     question: "What type of meat is used in the preparation of Osso Bucco?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Pina Colada",
     answerA: "Pina Colada",
     answerB: "Martini",
@@ -1984,7 +1984,7 @@ const QuizData = [
     question: "Which Cocktail contains rum, pineapple and coconut?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Verivorst",
     answerA: "Verivorst",
     answerB: "Cou Cou and Flying Fish",
@@ -1993,7 +1993,7 @@ const QuizData = [
     question: "Which of these dishes would you most expect to find in Estonia?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Mama Juana",
     answerA: "Mama Juana",
     answerB: "Gin",
@@ -2002,7 +2002,7 @@ const QuizData = [
     question: "Which of these is a popular drink in The Dominican Republic?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Spiciness",
     answerA: "Spiciness",
     answerB: "Calories",
@@ -2011,7 +2011,7 @@ const QuizData = [
     question: "What Does The Scoville Scale Measure?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "St. Louis",
     answerA: "St. Louis",
     answerB: "Munich",
@@ -2020,7 +2020,7 @@ const QuizData = [
     question: " Where was Budweiser first brewed?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Parma ",
     answerA: "Parma ",
     answerB: "Genoa",
@@ -2029,7 +2029,7 @@ const QuizData = [
     question: "Which Italian city gave its name to a cheese and a type of ham?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Peru",
     answerA: "Peru",
     answerB: "Belgium",
@@ -2038,7 +2038,7 @@ const QuizData = [
     question: "Where in the world would you most expect to be served Ceviche?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Nectarine ",
     answerA: "Nectarine ",
     answerB: "Agave",
@@ -2047,7 +2047,7 @@ const QuizData = [
     question: "Which fruit is a cross between a peach and a plum?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Raw",
     answerA: "Raw",
     answerB: "Fried",
@@ -2056,7 +2056,7 @@ const QuizData = [
     question: "How is steak tartare cooked?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Almond",
     answerA: "Almond",
     answerB: "Hazelnut",
@@ -2065,7 +2065,7 @@ const QuizData = [
     question: "What nut is used to make marzipan?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Lamb ",
     answerA: "Lamb ",
     answerB: "Beef",
@@ -2074,7 +2074,7 @@ const QuizData = [
     question: "Traditionally what type of meat is used to make a mousakka?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Pomegranate ",
     answerA: "Pomegranate ",
     answerB: "Mango",
@@ -2083,7 +2083,7 @@ const QuizData = [
     question: "From Which Fruit Is Grenadine Obtained?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "California ",
     answerA: "California ",
     answerB: "Florida",
@@ -2092,7 +2092,7 @@ const QuizData = [
     question: "Which US state exports the most wine?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Sang Som Rum",
     answerA: "Sang Som Rum",
     answerB: "Pitorro",
@@ -2101,7 +2101,7 @@ const QuizData = [
     question: "Which of these drinks would you associate with Thailand?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Twins",
     answerA: "Twins",
     answerB: "Squid-like",
@@ -2110,7 +2110,7 @@ const QuizData = [
     question: "The pasta gemelli has what meaning in Italian?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "The Netherlands ",
     answerA: "The Netherlands ",
     answerB: "Germany",
@@ -2119,7 +2119,7 @@ const QuizData = [
     question: "From which country does Edam cheese originate?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Beetles ",
     answerA: "Beetles ",
     answerB: "Raspberries",
@@ -2128,7 +2128,7 @@ const QuizData = [
     question: "From what is the red  dye carmine derived?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Pomegranate ",
     answerA: "Pomegranate ",
     answerB: "Mango",
@@ -2137,7 +2137,7 @@ const QuizData = [
     question: "From Which Fruit Is Grenadine Made?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Screwdriver ",
     answerA: "Screwdriver ",
     answerB: "Hammer",
@@ -2146,7 +2146,7 @@ const QuizData = [
     question: "Which cocktail shares its name with a tool?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Burrito ",
     answerA: "Burrito ",
     answerB: "Taco",
@@ -2155,7 +2155,7 @@ const QuizData = [
     question: "Which Mexican Dish Translates Into English As Little Donkey?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Khao Soi",
     answerA: "Khao Soi",
     answerB: "Toad in the Hole",
@@ -2165,7 +2165,7 @@ const QuizData = [
       "Which of these dishes is most commonly found in Northern regions of Thailand?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Vodka ",
     answerA: "Vodka ",
     answerB: "Whiskey",
@@ -2175,7 +2175,7 @@ const QuizData = [
       "A black Russian cocktail is made with one part coffee liqueur and two parts of which spirit?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Tomato ",
     answerA: "Tomato ",
     answerB: "Onion",
@@ -2184,7 +2184,7 @@ const QuizData = [
     question: "'love apple' is a nickname for which food?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Feijoada",
     answerA: "Feijoada",
     answerB: "Poutine",
@@ -2193,7 +2193,7 @@ const QuizData = [
     question: "Which of these dishes is most associated with Brazil?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Tayberry",
     answerA: "Tayberry",
     answerB: "Rackberry",
@@ -2202,7 +2202,7 @@ const QuizData = [
     question: "What is a cross between a blackberry and a raspberry?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Herring ",
     answerA: "Herring ",
     answerB: "Salmon",
@@ -2211,7 +2211,7 @@ const QuizData = [
     question: "What sort of fish is a kipper?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Mexico ",
     answerA: "Mexico ",
     answerB: "USA",
@@ -2220,7 +2220,7 @@ const QuizData = [
     question: "From which country does Tabasco sauce originate?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Potato dumplings",
     answerA: "Potato dumplings",
     answerB: "Raw beef",
@@ -2229,7 +2229,7 @@ const QuizData = [
     question: "What is gnocchi?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Bergamot ",
     answerA: "Bergamot ",
     answerB: "Lemon",
@@ -2239,7 +2239,7 @@ const QuizData = [
       "Which citrus fruit grows predominantly in Italy and is used in Earl Grey tea and eau de Cologne?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Melon",
     answerA: "Melon",
     answerB: "Grape",
@@ -2248,7 +2248,7 @@ const QuizData = [
     question: "What Fruit Is A Cantaloupe?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Cannoli",
     answerA: "Cannoli",
     answerB: "Bomboloni",
@@ -2258,7 +2258,7 @@ const QuizData = [
       "What is the name of an Italian pastry made of deep-fried dough shaped into a tube and filled with custard or cream?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Ice cream ",
     answerA: "Ice cream ",
     answerB: "Custard",
@@ -2268,7 +2268,7 @@ const QuizData = [
       "Baked Alaska has meringue on the outside , what does the meringue cover?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Butter ",
     answerA: "Butter ",
     answerB: "Cheese",
@@ -2278,7 +2278,7 @@ const QuizData = [
       "Along with wine vinegar and egg yolk, what other ingredient would you find in hollandaise sauce?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Mayans ",
     answerA: "Mayans ",
     answerB: "Greeks",
@@ -2288,7 +2288,7 @@ const QuizData = [
       "Which Ancient Civilisation Were Drinking Chocolate Milk As Long Ago As 600 BC?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Goulash",
     answerA: "Goulash",
     answerB: "Haggis",
@@ -2297,7 +2297,7 @@ const QuizData = [
     question: "Which of these dishes is most associated with Hungary?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Orange",
     answerA: "Orange",
     answerB: "Strawberry",
@@ -2306,7 +2306,7 @@ const QuizData = [
     question: "Which of these fruits is a citrus fruit?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Dutch ",
     answerA: "Dutch ",
     answerB: "German",
@@ -2315,7 +2315,7 @@ const QuizData = [
     question: "What nationality is the lager producer, `grolsch'?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Bread ",
     answerA: "Bread ",
     answerB: "Cheese",
@@ -2324,7 +2324,7 @@ const QuizData = [
     question: "What type of food is a bloomer?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Ribbon pasta",
     answerA: "Ribbon pasta",
     answerB: "Soup pasta",
@@ -2333,7 +2333,7 @@ const QuizData = [
     question: "What type of pasta is lasagne?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Europe",
     answerA: "Europe",
     answerB: "Central America",
@@ -2342,7 +2342,7 @@ const QuizData = [
     question: "Where in the world are turnips originally from?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Bread ",
     answerA: "Bread ",
     answerB: "Cheese",
@@ -2351,7 +2351,7 @@ const QuizData = [
     question: "Bruschetta is what?",
   },
   {
-    categroy: "Food & Drink",
+    category: "Food & Drink",
     correctAnswer: "Mushrooms ",
     answerA: "Mushrooms ",
     answerB: "Garlic",
@@ -2360,7 +2360,7 @@ const QuizData = [
     question: "Which Vegetable Can Be Oyster, Chestnut, or Shitaki?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Europe",
     answerA: "Europe",
     answerB: "South America",
@@ -2369,7 +2369,7 @@ const QuizData = [
     question: "The country of Andorra is on which continent?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "White",
     answerA: "White",
     answerB: "Gold",
@@ -2378,7 +2378,7 @@ const QuizData = [
     question: "Which of these colors is included on the flag of Poland?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Costa Rica",
     answerA: "Costa Rica",
     answerB: "Montenegro",
@@ -2387,7 +2387,7 @@ const QuizData = [
     question: "San Jose is the capital city of which country?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Egypt",
     answerA: "Egypt",
     answerB: "Kuwait",
@@ -2396,7 +2396,7 @@ const QuizData = [
     question: "Cairo is the capital city of which country?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Turkey",
     answerA: "Turkey",
     answerB: "Egypt",
@@ -2405,7 +2405,7 @@ const QuizData = [
     question: "In which country is the city of Izmir?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Venezuela",
     answerA: "Venezuela",
     answerB: "Vietnam",
@@ -2415,7 +2415,7 @@ const QuizData = [
       "Which region of the world uses '.ve' at the end of its web addresses?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Medellin",
     answerA: "Medellin",
     answerB: "Buenos Aires",
@@ -2424,7 +2424,7 @@ const QuizData = [
     question: "Which of these cities is in Colombia?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Ecuador ",
     answerA: "Ecuador ",
     answerB: "Latvia",
@@ -2433,7 +2433,7 @@ const QuizData = [
     question: "Which country has taken its name from a line of latitude?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Russia",
     answerA: "Russia",
     answerB: "Japan",
@@ -2442,7 +2442,7 @@ const QuizData = [
     question: "Which of these countries borders North Korea?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Red with a black two headed eagle in the center.",
     answerA: "Red with a black two headed eagle in the center.",
     answerB: "Three equal vertical bands of green, yellow, and red.",
@@ -2451,7 +2451,7 @@ const QuizData = [
     question: "What does the flag of Albania look like?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Honduras",
     answerA: "Honduras",
     answerB: "Laos",
@@ -2460,7 +2460,7 @@ const QuizData = [
     question: "Tegucigalpa is the capital city of which country?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Gambia",
     answerA: "Gambia",
     answerB: "Palau",
@@ -2469,7 +2469,7 @@ const QuizData = [
     question: "Banjul is the capital city of which country?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Red",
     answerA: "Red",
     answerB: "Orange",
@@ -2478,7 +2478,7 @@ const QuizData = [
     question: "Which of these colors is included on the flag of Belgium?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Oceania",
     answerA: "Oceania",
     answerB: "South America",
@@ -2488,7 +2488,7 @@ const QuizData = [
       "The country of Federated States of Micronesia is on which continent?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Atlantic ",
     answerA: "Atlantic ",
     answerB: "Pacific",
@@ -2497,7 +2497,7 @@ const QuizData = [
     question: "In Which Ocean Is The Gulf Stream",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Africa",
     answerA: "Africa",
     answerB: "South America",
@@ -2506,7 +2506,7 @@ const QuizData = [
     question: "The country of Comoros is on which continent?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Turkey",
     answerA: "Turkey",
     answerB: "Bosnia & Herzegovina",
@@ -2516,7 +2516,7 @@ const QuizData = [
       "In which country would you find the ancient Greek city of Hierapolis?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Porto-Novo",
     answerA: "Porto-Novo",
     answerB: "Ashgabat",
@@ -2525,7 +2525,7 @@ const QuizData = [
     question: "What is the capital city of Benin?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Prague",
     answerA: "Prague",
     answerB: "Manama",
@@ -2534,7 +2534,7 @@ const QuizData = [
     question: "What is the capital city of Czechia?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Tonga",
     answerA: "Tonga",
     answerB: "Samoa",
@@ -2544,7 +2544,7 @@ const QuizData = [
       "Which country altered its timezone in order to be the first to see in the year 2000 ?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Chile",
     answerA: "Chile",
     answerB: "Scotland",
@@ -2553,7 +2553,7 @@ const QuizData = [
     question: "The territory of Easter Island belongs to which country?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Jewellers",
     answerA: "Jewellers",
     answerB: "Butchers",
@@ -2563,7 +2563,7 @@ const QuizData = [
       "What Type Of Shop Predominates On The Ponte Vecchio In Florence?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Kyiv",
     answerA: "Kyiv",
     answerB: "Sofia",
@@ -2572,7 +2572,7 @@ const QuizData = [
     question: "What is the capital city of Ukraine?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Belgium",
     answerA: "Belgium",
     answerB: "Liechtenstein",
@@ -2581,7 +2581,7 @@ const QuizData = [
     question: "Which of these countries borders Germany?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Estonia",
     answerA: "Estonia",
     answerB: "Georgia",
@@ -2590,7 +2590,7 @@ const QuizData = [
     question: "Which of these countries has black on its flag?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Pakistan",
     answerA: "Pakistan",
     answerB: "Kosovo",
@@ -2599,7 +2599,7 @@ const QuizData = [
     question: "Islamabad is the capital city of which country?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Beijing",
     answerA: "Beijing",
     answerB: "Hong Kong",
@@ -2608,7 +2608,7 @@ const QuizData = [
     question: "What Is The Capital Of China?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Egypt",
     answerA: "Egypt",
     answerB: "Qatar",
@@ -2617,7 +2617,7 @@ const QuizData = [
     question: "In which country is the city of Alexandria?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Oakland",
     answerA: "Oakland",
     answerB: "Sacramento",
@@ -2626,7 +2626,7 @@ const QuizData = [
     question: "Which city is on the east side of San Francisco Bay?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Africa",
     answerA: "Africa",
     answerB: "Asia",
@@ -2635,7 +2635,7 @@ const QuizData = [
     question: "Where is the world's largest desert?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Malaysia",
     answerA: "Malaysia",
     answerB: "Philippines",
@@ -2644,7 +2644,7 @@ const QuizData = [
     question: "Where would you find the city of Petaling Jaya?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Pristina",
     answerA: "Pristina",
     answerB: "Lomé",
@@ -2653,7 +2653,7 @@ const QuizData = [
     question: "What is the capital city of Kosovo?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Sri Lanka",
     answerA: "Sri Lanka",
     answerB: "Indonesia",
@@ -2662,7 +2662,7 @@ const QuizData = [
     question: "Colombo is a city in which country?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Syria",
     answerA: "Syria",
     answerB: "Thailand",
@@ -2672,7 +2672,7 @@ const QuizData = [
       "Which country's flag fits the description of 'Three equal horizontal bands of red white and black. The white band contains two green stars.'?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Belarus",
     answerA: "Belarus",
     answerB: "Kyrgyzstan",
@@ -2681,7 +2681,7 @@ const QuizData = [
     question: "Which of these countries borders Russia?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Belgium",
     answerA: "Belgium",
     answerB: "Italy",
@@ -2690,7 +2690,7 @@ const QuizData = [
     question: "In which country would you find the city of Bruges?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "The Pan American Highway",
     answerA: "The Pan American Highway",
     answerB: "Route 1",
@@ -2699,7 +2699,7 @@ const QuizData = [
     question: "Which Road Runs From Alaska To Chile?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Sarajevo",
     answerA: "Sarajevo",
     answerB: "Palikir",
@@ -2708,7 +2708,7 @@ const QuizData = [
     question: "What is the capital city of Bosnia and Herzegovina?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Thailand",
     answerA: "Thailand",
     answerB: "Indonesia",
@@ -2717,7 +2717,7 @@ const QuizData = [
     question: "In which country is the city of Bangkok?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Zambia",
     answerA: "Zambia",
     answerB: "Algeria",
@@ -2726,7 +2726,7 @@ const QuizData = [
     question: "Lusaka is the capital city of which country?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Red",
     answerA: "Red",
     answerB: "Orange",
@@ -2735,7 +2735,7 @@ const QuizData = [
     question: "Which of these colors would you find on the flag of Iran?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Norway",
     answerA: "Norway",
     answerB: "Finland",
@@ -2744,7 +2744,7 @@ const QuizData = [
     question: "Oslo is the capital city of which country?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Italy",
     answerA: "Italy",
     answerB: "Poland",
@@ -2753,7 +2753,7 @@ const QuizData = [
     question: "Where is the Blue Grotto?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "The Danube",
     answerA: "The Danube",
     answerB: "The Nile",
@@ -2762,7 +2762,7 @@ const QuizData = [
     question: "Which river has the most capital cities on it?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Brussels",
     answerA: "Brussels",
     answerB: "Luanda",
@@ -2771,7 +2771,7 @@ const QuizData = [
     question: "What is the capital city of Belgium?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Prague",
     answerA: "Prague",
     answerB: "Oslo",
@@ -2780,7 +2780,7 @@ const QuizData = [
     question: "Which of these cities is in Czech Republic?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Micronesia",
     answerA: "Micronesia",
     answerB: "Israel",
@@ -2789,7 +2789,7 @@ const QuizData = [
     question: "Palikir is the capital city of which country?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Galata Bridge",
     answerA: "Galata Bridge",
     answerB: "Bosphor Bridge",
@@ -2798,7 +2798,7 @@ const QuizData = [
     question: "Which Bridge Connects Europe With Asia?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "Hungary",
     answerA: "Hungary",
     answerB: "Luxembourg",
@@ -2807,7 +2807,7 @@ const QuizData = [
     question: "In which country is the city of Budapest?",
   },
   {
-    categroy: "Geography",
+    category: "Geography",
     correctAnswer: "The UK",
     answerA: "The UK",
     answerB: "Norway",
