@@ -475,6 +475,15 @@ const QuizData = [
     question:
       "What word is used in the NATO Phonetic Alphabet for the letter E?",
   },
+  {
+    categroy: "Science",
+    correctAnswer: "Doe",
+    answerA: "",
+    answerB: "",
+    answerC: "",
+    answerD: "",
+    question: "What do you call a female deer?",
+  }
 ];
 
 const seedQuiz = async () => {
