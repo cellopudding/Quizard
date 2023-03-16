@@ -16,14 +16,15 @@ router.get("/", async (req, res) => {
         "correctAnswer",
       ],
     });
-
+console.log(quizData)
     const quizzes = quizData.map((quiz) => quiz.get({ plain: true }));
-
+console.log(quizzes)
     res.render("homepage", {
       quizzes,
       logged_in: req.session.logged_in,
     });
   } catch (err) {
+    console.log(err);
     res.status(500).json(err);
   }
 });
@@ -38,7 +39,7 @@ router.get("/categories", async (req, res) => {
       include: [{ model: Quiz }],
     });
 
-    const user = userData.get({ plain: true });
+    const quizzes = quizData.map((quiz) => quiz.get({ plain: true }));
 
     res.render("categories", {
       ...user,
@@ -51,10 +52,10 @@ router.get("/categories", async (req, res) => {
 
 router.get("/login", (req, res) => {
   // If the user is already logged in, redirect the request to another route
-  // if (req.session.logged_in) {
-  //   res.redirect("/");
-  //   return;
-  // }
+  if (req.session.logged_in) {
+    res.redirect("/");
+    return;
+  }
 
   res.render("login");
 });
