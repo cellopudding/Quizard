@@ -8,8 +8,9 @@ const categories = document.querySelectorAll(".category-card");
 const question = document.querySelector(".question-container");
 const questionCard = document.querySelector(".question-card");
 
-function startQuiz() {
-  console.log(this);
+function startQuiz(e) {
+  // console.log(e.target)
+  // console.log(this);
   // hide start screen
   var categoriesScreen = document.querySelector(".categories-container");
   categoriesScreen.setAttribute("class", "hide");
@@ -20,7 +21,7 @@ function startQuiz() {
   // un-hide questions section
   question.removeAttribute("class", "hide");
 
-  getApi();
+  getApi(this.getAttribute("id"));
 }
 
 for (const category of categories) {
@@ -29,6 +30,15 @@ for (const category of categories) {
 
 var newQuestion = document.getElementById("questionbtn");
 
+const getApi = async (id)=> {
+
+  console.log(id)
+  const response = await fetch("/categories", {
+    method: "GET",
+    body: JSON.stringify({ id }),
+    headers: { "Content-Type": "application/json" },
+  });
+}
 // need to replace with our API
 // function getApi() {
 //   var requestUrl = "https://the-trivia-api.com/api/questions?limit=1";
