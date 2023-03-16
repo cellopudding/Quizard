@@ -1,6 +1,24 @@
-/* nav {
+.navbar {
   transition: top 0.3s;
-} */
+  background: linear-gradient(
+    111.5deg,
+    rgb(228, 247, 255) 21.9%,
+    rgb(255, 216, 194) 92.2%
+  );
+}
+
+.nav-image {
+  width: 50px;
+  margin-right: 20px;
+}
+.navbar-brand {
+  font-weight: bold;
+}
+
+h1 {
+  text-shadow: 5px 5px 10px rgba(51, 45, 45, 0.4);
+  color: #332d2d;
+}
 
 * {
   font-family: "Montserrat", sans-serif;
@@ -13,31 +31,43 @@ a {
 #music,
 .music {
   background: #ff8360;
+  border: 5px solid #ff8360;
+  border-radius: 20px;
 }
 
 #science,
 .science {
   background: #7dce82;
+  border: 5px solid #7dce82;
+  border-radius: 20px;
 }
 
 #food-drink,
 .food-drink {
   background: #9b7ede;
+  border: 5px solid #9b7ede;
+  border-radius: 20px;
 }
 
 #film-tv,
 .film-tv {
   background: #ff6b6b;
+  border: 5px solid #ff6b6b;
+  border-radius: 20px;
 }
 
 #geography,
 .geography {
   background: #37cdc5;
+  border: 5px solid #37cdc5;
+  border-radius: 20px;
 }
 
 #general,
 .general {
   background: #ffdc81;
+  border: 5px solid #ffdc81;
+  border-radius: 20px;
 }
 
 .hide {
@@ -62,9 +92,9 @@ a {
   background: #7dce82;
 }
 
-.login-image {
+/* .login-image {
   max-width: 100%;
-}
+} */
 
 .logo {
   /* font-family: "Fredoka", sans-serif; */
@@ -74,6 +104,14 @@ a {
 }
 
 body,
-nav {
-  background: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url("../assets/images/background.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
