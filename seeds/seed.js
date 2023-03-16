@@ -2818,9 +2818,12 @@ const QuizData = [
   },
 ];
 
-const seedQuiz = async () => {
-  await sequelize.sync({force: true})
-  const results = await Quiz.bulkCreate(QuizData)
-console.log(results);
+
+const seedAll = async () => {
+  await sequelize.sync({ force: true });
+
+  const results = await Quiz.bulkCreate(QuizData);
+  process.exit(0);
 };
-seedQuiz();
+
+seedAll();
