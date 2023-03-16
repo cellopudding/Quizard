@@ -39,7 +39,7 @@
           alt="question mark icon"
           class="nav-image"
         />
-        <a href="./quiz.html" class="navbar-brand text-dark">Trivia Game</a>
+        <a href="/" class="navbar-brand text-dark">Trivia Game</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -51,7 +51,7 @@
         <div class="collapse navbar-collapse" id="navmenu">
           <ul class="navbar-nav ms-auto text-dark">
             <li class="nav-item text-dark">
-              <a href="./login.html" class="nav-link text-dark">Log in</a>
+              <a href="./login" class="nav-link text-dark">Log in</a>
             </li>
           </ul>
         </div>
@@ -61,13 +61,13 @@
       <header class="display-flex justify-space-between align-center p-2">
         <nav>
           <!-- Conditionally render login or logout links -->
-          {{#if logged_in}}
-            <a href="/homepage">profile</a>
+          {{!-- {{#if logged_in}}
+            <a href="/homepage">Profile</a>
             |
-            <button class="no-button" id="logout">logout</button>
+            <button class="no-button" id="logout">Log out</button>
           {{else}}
             <a href="./login.html" class="nav-link text-dark">Log in</a>
-          {{/if}}
+          {{/if}} --}}
         </nav>
       </header>
       <main class="container container-fluid mt-5">
@@ -78,9 +78,9 @@
       </footer>
     </div>
     <!-- Render script for logged in users only -->
-    {{#if logged_in}}
+    {{!-- {{#if logged_in}}
       <script src="/js/logout.js"></script>
-    {{/if}}
+    {{/if}} --}}
   </body>
-  <script src="/js/quiz.js"></script>
+  {{! <script src="/js/quiz.js"></script> }}
 </html>

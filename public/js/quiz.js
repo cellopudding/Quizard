@@ -32,67 +32,11 @@ var newQuestion = document.getElementById("questionbtn");
 
 const getApi = async (id) => {
   console.log(id);
-  const response = await fetch("/categories", {
+  const response = await fetch("/:categories", {
     method: "GET",
     body: JSON.stringify({ id }),
     headers: { "Content-Type": "application/json" },
   });
 };
-// need to replace with our API
-// function getApi() {
-//   var requestUrl = "https://the-trivia-api.com/api/questions?limit=1";
-
-//   fetch(requestUrl)
-//     .then(function (response) {
-//       return response.json();
-//     })
-//     .then(function (data) {
-//       console.log(data[0].question);
-//       console.log(data[0].correctAnswer);
-//       console.log(data[0].incorrectAnswers[0]);
-//       console.log(data[0].incorrectAnswers[1]);
-//       console.log(data[0].incorrectAnswers[2]);
-//       document.getElementById("generate-question").innerHTML = data[0].question;
-//     });
-// }
 
 newQuestion.addEventListener("click", getApi);
-
-// const newCardColor = getElementById("question-card");
-
-// change the card colors based on category selected
-
-// {
-//     "category": "Music",
-//     "id": "622a1c357cc59eab6f94ff6b",
-//     "correctAnswer": "Right Said Fred",
-//     "incorrectAnswers": [
-//       "Level 42",
-//       "Our Lady Peace",
-//       "Feeder"
-//     ],
-//     "question": "Who Had A Hit In 1994 With \"Wonderman\"",
-//     "tags": [
-//       "songs",
-//       "1990's",
-//       "one_hit_wonders",
-//       "music"
-//     ],
-//     "type": "Multiple Choice",
-//     "difficulty": "hard",
-//     "regions": [],
-//     "isNiche": false
-//   },
-
-// const QuizData = [
-//   {
-//     category: "Science",
-//     id: "624333a2cfaae40c129613f4",
-//     correctAnswer: "A Doe",
-//     answerA: "A Pen",
-//     answerB: "A Mare",
-//     answerC: "A Nanny",
-//     answerD: "A Doe",
-//     question: "A female deer is known as what?",
-//   },
-// ];

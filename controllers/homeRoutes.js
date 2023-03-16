@@ -16,9 +16,9 @@ router.get("/", async (req, res) => {
         "correctAnswer",
       ],
     });
-console.log(quizData)
+    console.log(quizData);
     const quizzes = quizData.map((quiz) => quiz.get({ plain: true }));
-console.log(quizzes)
+    console.log(quizzes);
     res.render("homepage", {
       quizzes,
       logged_in: req.session.logged_in,
@@ -51,6 +51,7 @@ router.get("/:category", async (req, res) => {
 });
 
 router.get("/login", (req, res) => {
+  console.log("help");
   // If the user is already logged in, redirect the request to another route
   if (req.session.logged_in) {
     res.redirect("/");
