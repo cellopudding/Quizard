@@ -1,3 +1,15 @@
+body {
+  font-family: "Shrikhand", cursive;
+}
+
+.card-body {
+  font-family: "Kavoon", cursive;
+}
+
+i {
+  text-shadow: 1px 1px 1px #332d2d;
+}
+
 .navbar {
   background: linear-gradient(
     111.5deg,
@@ -18,10 +30,6 @@
 h1 {
   text-shadow: 5px 5px 10px rgba(51, 45, 45, 0.4);
   color: #332d2d;
-}
-
-* {
-  font-family: "Montserrat", sans-serif;
 }
 
 a {
@@ -91,10 +99,6 @@ a {
 .user-card {
   background: #7dce82;
 }
-
-/* .login-image {
-  max-width: 100%;
-} */
 
 .logo {
   /* font-family: "Fredoka", sans-serif; */
