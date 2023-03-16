@@ -3,7 +3,7 @@ let music = document.querySelector(".music");
 let filmTv = document.querySelector(".film-tv");
 let foodDrink = document.querySelector(".food-drink");
 let geography = document.querySelector(".geography");
-let random = document.querySelector(".random");
+let random = document.querySelector(".general");
 const categories = document.querySelectorAll(".category-card");
 const question = document.querySelector(".question-container");
 const questionCard = document.querySelector(".question-card");
@@ -30,15 +30,14 @@ for (const category of categories) {
 
 var newQuestion = document.getElementById("questionbtn");
 
-const getApi = async (id)=> {
-
-  console.log(id)
+const getApi = async (id) => {
+  console.log(id);
   const response = await fetch("/categories", {
     method: "GET",
     body: JSON.stringify({ id }),
     headers: { "Content-Type": "application/json" },
   });
-}
+};
 // need to replace with our API
 // function getApi() {
 //   var requestUrl = "https://the-trivia-api.com/api/questions?limit=1";
