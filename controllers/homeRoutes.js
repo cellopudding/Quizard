@@ -31,7 +31,7 @@ console.log(quizzes)
 
 // Use withAuth middleware to prevent access to route
 //TODO: add withAuth
-router.get("/categories", async (req, res) => {
+router.get("/:category", async (req, res) => {
   try {
     // Find the logged in user based on the session ID
     const userData = await User.findByPk(req.session.user_id, {
