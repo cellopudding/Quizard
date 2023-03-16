@@ -16,87 +16,13 @@ router.get('/category/Randomize', async (req, res) => {
   }
 });
 
-router.get('/category/Science', async (req, res) => {
+router.get('/:category', async (req, res) => {
+  console.log(req.params);
   try {
     const newQuiz = await Quiz.findAll({
       limit: 5,
       where: {
-        category: "Science",
-      }, 
-      order: sequelize.random()
-    });
-    res.status(200).json(newQuiz);
-  } catch (err) {
-    res.status(400).json(err);
-  }
-});
-
-router.get('/category/Geography', async (req, res) => {
-  try {
-    const newQuiz = await Quiz.findAll({
-      limit: 5,
-      where: {
-        category: "Geography",
-      }, 
-      order: sequelize.random()
-    });
-    res.status(200).json(newQuiz);
-  } catch (err) {
-    res.status(400).json(err);
-  }
-});
-
-router.get('/category/Music', async (req, res) => {
-  try {
-    const newQuiz = await Quiz.findAll({
-      limit: 5,
-      where: {
-        category: "Music",
-      }, 
-      order: sequelize.random()
-    });
-    res.status(200).json(newQuiz);
-  } catch (err) {
-    res.status(400).json(err);
-  }
-});
-
-router.get('/category/Food & Drink', async (req, res) => {
-  try {
-    const newQuiz = await Quiz.findAll({
-      limit: 5,
-      where: {
-        category: "Food & Drink",
-      }, 
-      order: sequelize.random()
-    });
-    res.status(200).json(newQuiz);
-  } catch (err) {
-    res.status(400).json(err);
-  }
-});
-
-router.get('/category/Film & TV', async (req, res) => {
-  try {
-    const newQuiz = await Quiz.findAll({
-      limit: 5,
-      where: {
-        category: "Film & TV",
-      }, 
-      order: sequelize.random()
-    });
-    res.status(200).json(newQuiz);
-  } catch (err) {
-    res.status(400).json(err);
-  }
-});
-
-router.get('/category/General Knowledge', async (req, res) => {
-  try {
-    const newQuiz = await Quiz.findAll({
-      limit: 5,
-      where: {
-        category: "General Knowlege",
+        category: req.params.category,
       }, 
       order: sequelize.random()
     });
