@@ -43,43 +43,45 @@
 
   </head>
   <body>
-    <nav class="navbar navbar-expand navbar-dark py-2 fixed-top text-dark">
-      <div class="container">
-        <img
-          src="/assets/images/icon.jpg
+    <div class="background">
+      <nav class="navbar navbar-expand navbar-dark py-2 fixed-top text-dark">
+        <div class="container">
+          <img
+            src="/assets/images/icon.jpg
           "
-          alt="question mark icon"
-          class="nav-image"
-        />
-        <a href="/" class="navbar-brand text-dark">Trivia Game</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navmenu"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navmenu">
-          <ul class="navbar-nav ms-auto text-dark">
-            <li class="nav-item text-dark">
-              {{#if logged_in}}
-                <a href="./login" class="nav-link text-dark">Log in</a>
-              {{else}}
-                <a href="./login.html" class="nav-link text-dark">Log in</a>
-              {{/if}}
-            </li>
-          </ul>
+            alt="question mark icon"
+            class="nav-image"
+          />
+          <a href="/" class="navbar-brand text-dark">Trivia Game</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto text-dark">
+              <li class="nav-item text-dark">
+                {{#if logged_in}}
+                  <a href="./login" class="nav-link text-dark">Log in</a>
+                {{else}}
+                  <a href="./login.html" class="nav-link text-dark">Log in</a>
+                {{/if}}
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-    <main class="container container-fluid mt-5">
-      <!-- Render the sub layout -->
-      {{{body}}}
-    </main>
-    <!-- Render script for logged in users only -->
-    {{#if logged_in}}
-      <script src="/js/logout.js"></script>
-    {{/if}}
+      </nav>
+      <main class="container container-fluid mt-5">
+        <!-- Render the sub layout -->
+        {{{body}}}
+      </main>
+      <!-- Render script for logged in users only -->
+      {{#if logged_in}}
+        <script src="/js/logout.js"></script>
+      {{/if}}
+    </div>
   </body>
 </html>

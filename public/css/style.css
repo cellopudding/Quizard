@@ -2,9 +2,33 @@ body {
   font-family: "Electrolize", sans-serif;
 }
 
+body,
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* body:before {
+  content: "";
+  background-image: url("../assets/images/geo.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.8;
+} */
+
 .category-font {
-  /* font-family: "Kavoon", cursive; */
-  font-family: "Electrolize", sans-serif;
+  /* font-family: "Electrolize", sans-serif; */
+  font-family: "kavoon", cursive;
   font-weight: bold;
   font-size: larger;
 }
@@ -13,7 +37,7 @@ i {
   text-shadow: 1px 1px 1px #332d2d;
 }
 
-.navbar {
+/* .navbar {
   background: linear-gradient(
     111.5deg,
     rgb(208, 238, 236) 21.9%,
@@ -21,12 +45,13 @@ i {
   );
   opacity: 0.8;
   transition: top 0.3s;
-}
+} */
 
 .nav-image {
   width: 50px;
   margin-right: 20px;
   border-radius: 10px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
 }
 .navbar-brand {
   font-weight: bold;
@@ -95,6 +120,7 @@ a {
 .question-card,
 .user-card {
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  max-width: 100%;
 }
 
 .user-card {
@@ -102,28 +128,15 @@ a {
 }
 
 .logo {
-  /* font-family: "Shrikhand", cursive; */
-  /* font-family: "kavoon", cursive;
-  font-size: 48px;
-  font-weight: bold; */
   font-family: "Electrolize", sans-serif;
   font-weight: bold;
   font-size: 50px;
 }
 
-body,
-html {
-  height: 100%;
-}
-
-body {
-  background-image: url("../assets/images/background.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .user-card {
-  background-color: #00d5b9;
+  background-color: #254a74;
+}
+
+.container {
+  opacity: 1;
 }
