@@ -12,14 +12,14 @@ function startQuiz(e) {
   // console.log(e.target)
   // console.log(this);
   // hide start screen
-  var categoriesScreen = document.querySelector(".categories-container");
-  categoriesScreen.setAttribute("class", "hide");
+  // var categoriesScreen = document.querySelector(".categories-container");
+  // categoriesScreen.setAttribute("class", "hide");
 
   // will need to update this to some kind of changeColor function
   questionCard.classList.add(this.getAttribute("id"));
 
-  // un-hide questions section
-  question.removeAttribute("class", "hide");
+  // // un-hide questions section
+  // question.removeAttribute("class", "hide");
 
   getApi(this.getAttribute("id"));
 }
