@@ -39,7 +39,7 @@
           alt="question mark icon"
           class="nav-image"
         />
-        <a href="./quiz.html" class="navbar-brand text-dark">Trivia Game</a>
+        <a href="/" class="navbar-brand text-dark">Trivia Game</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -51,7 +51,7 @@
         <div class="collapse navbar-collapse" id="navmenu">
           <ul class="navbar-nav ms-auto text-dark">
             <li class="nav-item text-dark">
-              <a href="./login.html" class="nav-link text-dark">Log in</a>
+              <a href="./login" class="nav-link text-dark">Log in</a>
             </li>
           </ul>
         </div>
@@ -62,9 +62,9 @@
         <nav>
           <!-- Conditionally render login or logout links -->
           {{#if logged_in}}
-            <a href="/homepage">profile</a>
+            <a href="/homepage">Profile</a>
             |
-            <button class="no-button" id="logout">logout</button>
+            <button class="no-button" id="logout">Log out</button>
           {{else}}
             <a href="./login.html" class="nav-link text-dark">Log in</a>
           {{/if}}
@@ -82,5 +82,5 @@
       <script src="/js/logout.js"></script>
     {{/if}}
   </body>
-  <script src="/js/quiz.js"></script>
+
 </html>

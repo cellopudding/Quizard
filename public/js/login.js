@@ -16,7 +16,7 @@ const loginFormHandler = async (event) => {
 
     if (response.ok) {
       // Redirecting login to the quiz game page--need to update route
-      document.location.replace("/profile");
+      document.location.replace("/");
     } else {
       alert(response.statusText);
     }
