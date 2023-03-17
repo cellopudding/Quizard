@@ -1,27 +1,57 @@
 body {
-  font-family: "Shrikhand", cursive;
+  font-family: "Electrolize", sans-serif;
 }
 
-.card-body {
-  font-family: "Kavoon", cursive;
+body,
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body:before {
+  content: "";
+  background-image: url("../assets/images/geo.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.7;
+}
+
+.category-font {
+  /* font-family: "Electrolize", sans-serif; */
+  font-family: "kavoon", cursive;
+  font-weight: bold;
+  font-size: larger;
 }
 
 i {
   text-shadow: 1px 1px 1px #332d2d;
 }
 
-.navbar {
+/* .navbar {
   background: linear-gradient(
     111.5deg,
-    rgb(228, 247, 255) 21.9%,
+    rgb(208, 238, 236) 21.9%,
     rgb(255, 216, 194) 92.2%
   );
+  opacity: 0.8;
   transition: top 0.3s;
-}
+} */
 
 .nav-image {
   width: 50px;
   margin-right: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
 }
 .navbar-brand {
   font-weight: bold;
@@ -66,8 +96,8 @@ a {
 
 #geography,
 .geography {
-  background: #37cdc5;
-  border: 5px solid #37cdc5;
+  background: #0aaaea;
+  border: 5px solid #0aaaea;
   border-radius: 20px;
 }
 
@@ -76,10 +106,6 @@ a {
   background: #ffdc81;
   border: 5px solid #ffdc81;
   border-radius: 20px;
-}
-
-.hide {
-  display: none;
 }
 
 .category-card {
@@ -94,6 +120,7 @@ a {
 .question-card,
 .user-card {
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  max-width: 100%;
 }
 
 .user-card {
@@ -101,21 +128,15 @@ a {
 }
 
 .logo {
-  /* font-family: "Fredoka", sans-serif; */
-  font-family: "Shrikhand", cursive;
-  font-size: 48px;
+  font-family: "Electrolize", sans-serif;
   font-weight: bold;
+  font-size: 50px;
 }
 
-body,
-html {
-  height: 100%;
+.user-card {
+  background-color: #254a74;
 }
 
-body {
-  background-image: url("../assets/images/background.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.container {
+  opacity: 1;
 }
