@@ -15,12 +15,6 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -37,6 +31,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" type="text/css" href="/css/style.css" />
@@ -64,9 +64,9 @@
           <ul class="navbar-nav ms-auto text-dark">
             <li class="nav-item text-dark">
               {{#if logged_in}}
-                <a href="./login" class="nav-link text-dark">Log in</a>
+                <button class="no-button" id="logout">Log out</button>
               {{else}}
-                <a href="./login.html" class="nav-link text-dark">Log in</a>
+                <a href="/login" class="text-dark login">Log in</a>
               {{/if}}
             </li>
           </ul>
