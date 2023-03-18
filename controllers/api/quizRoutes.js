@@ -14,22 +14,33 @@ router.get("/category/Randomize", async (req, res) => {
   } catch (err) {
     res.status(400).json(err);
   }
+  // res.render('questions')
 });
 
 router.get("/:category", async (req, res) => {
-  console.log(req.params);
+  
   try {
     const newQuiz = await Quiz.findAll({
-      limit: 5,
+      // limit: 5,
       where: {
         category: req.params.category,
       },
       order: sequelize.random(),
+      
     });
-    res.status(200).json(newQuiz);
+    console.log(newQuiz)
+const triviaQuestion = newQuiz.map((quiz) => quiz.get({ plain: true}));
+    console.log(triviaQuestion)
+      res.render('questions', {
+        triviaQuestion,
+        logged_in: req.session.logged_in,
+
+      })
+    
   } catch (err) {
     res.status(400).json(err);
   }
+  // res.render('questions')
 });
 
 // router.post('/', withAuth, async (req, res) => {
