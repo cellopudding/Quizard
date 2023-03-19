@@ -38,7 +38,8 @@ body:before {
 .signup-form {
   font-family: Arial, Helvetica, sans-serif;
 }
-.login {
+.login,
+.logout {
   font-size: 20px;
   font-weight: bolder;
 }
@@ -61,10 +62,16 @@ i {
 h1 {
   text-shadow: 5px 5px 10px rgba(51, 45, 45, 0.4);
   color: #332d2d;
+  opacity: 1;
 }
 
 a {
   text-decoration: none;
+}
+
+.signup-link {
+  color: #0aaaea;
+  font-weight: bold;
 }
 
 #music,
@@ -135,7 +142,7 @@ a {
 }
 
 .user-card {
-  background-color: #254a74;
+  background-color: #2c598d;
 }
 
 .container {
