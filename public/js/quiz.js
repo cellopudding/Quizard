@@ -8,6 +8,13 @@ const categories = document.querySelectorAll(".category-card");
 const question = document.querySelector(".question-container");
 const questionCard = document.querySelector(".question-card");
 
+const getApi = async (id) => {
+  const response = await fetch(`/api/quiz/${id}`, {
+    method: "GET",
+    headers: { "Content-Type": "application/json" },
+  });
+};
+
 function startQuiz(e) {
   // console.log(e.target)
   // console.log(this);
@@ -18,14 +25,5 @@ function startQuiz(e) {
 }
 categories.forEach(function (i) {
   i.addEventListener("click", startQuiz);
+  i.addEventListener("click", getApi);
 });
-
-// var newQuestion = document.getElementById("science");
-
-const getApi = async (id) => {
-  const response = await fetch(`/api/quiz/${id}`, {
-    method: "GET",
-    headers: { "Content-Type": "application/json" },
-  });
-};
-// newQuestion.addEventListener("click", getApi);
