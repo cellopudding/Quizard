@@ -21,7 +21,7 @@ router.get("/:category", async (req, res) => {
   
   try {
     const newQuiz = await Quiz.findAll({
-      // limit: 5,
+      limit: 5,
       where: {
         category: req.params.category,
       },
