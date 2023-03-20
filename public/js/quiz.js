@@ -21,7 +21,6 @@ function startQuiz(e) {
 
   // getApi(this.getAttribute("id"));
 
-  // console.log(this.getAttribute("id"));
 
   const id = this.getAttribute("id");
   window.location.href = `api/quiz/${id}`;
