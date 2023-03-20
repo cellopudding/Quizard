@@ -148,3 +148,7 @@ a {
 .container {
   opacity: 1;
 }
+
+#message {
+  padding-bottom: 100px;
+}
