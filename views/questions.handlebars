@@ -4,7 +4,10 @@
       <div class="col-md-8">
         <div class="card question-card text-dark m-5" id="question-card">
           <div class="card-body text-center">
-            <h3 class="card-title mb-3" id="generate-question">{{question}}</h3>
+            <h3
+              class="card-title mb-3"
+              id="generate-question"
+            >{{Quiz.dataValues.question}}</h3>
             <div class="answer-buttons">
               <div class="form-check">
                 <input
@@ -16,6 +19,7 @@
                   checked
                 />
                 <label class="form-check-label" for="exampleRadios1">
+                  {{answerA}}
                 </label>
               </div>
               <div class="form-check">
@@ -27,7 +31,7 @@
                   value="option2"
                 />
                 <label class="form-check-label" for="exampleRadios2">
-                  <!-- Answer 2 -->
+                  {{answerB}}
                 </label>
               </div>
               <div class="form-check">
@@ -39,7 +43,7 @@
                   value="option2"
                 />
                 <label class="form-check-label" for="exampleRadios2">
-                  <!-- Answer 3 -->
+                  {{answerC}}
                 </label>
               </div>
               <div class="form-check">
@@ -51,7 +55,7 @@
                   value="option2"
                 />
                 <label class="form-check-label" for="exampleRadios2">
-                  <!-- Answer 4 -->
+                  {{answerD}}
                 </label>
               </div>
             </div>
