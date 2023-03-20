@@ -17,11 +17,14 @@ const getApi = async (id) => {
 
 function startQuiz(e) {
   // console.log(e.target)
-  // console.log(this);
+  console.log(this);
 
-  getApi(this.getAttribute("id"));
+  // getApi(this.getAttribute("id"));
 
-  console.log(this.getAttribute("id"));
+  // console.log(this.getAttribute("id"));
+
+  const id = this.getAttribute("id");
+  window.location.href = `api/quiz/${id}`;
 }
 categories.forEach(function (i) {
   i.addEventListener("click", startQuiz);
