@@ -18,7 +18,8 @@ router.get("/category/Randomize", async (req, res) => {
 });
 
 router.get("/:category", async (req, res) => {
-  
+  console.log("Parameters: ", req.params);
+
   try {
     const newQuiz = await Quiz.findAll({
       limit: 5,
@@ -26,17 +27,29 @@ router.get("/:category", async (req, res) => {
         category: req.params.category,
       },
       order: sequelize.random(),
-      
     });
-    console.log(newQuiz)
-const triviaQuestion = newQuiz.map((quiz) => quiz.get({ plain: true}));
-    console.log(triviaQuestion)
-      res.render('questions', {
-        triviaQuestion,
-        logged_in: req.session.logged_in,
+    // console.log("Dataset: ", newQuiz)
+    const triviaQuestion = newQuiz.map((quiz) => quiz.get({ plain: true }));
+    //  console.log("Triva: ", triviaQuestion)
 
-      })
-    
+    // based on the CATEGORY set a value based on the CSS class
+    let colorChoices = [
+      "science",
+      "music",
+      "general",
+      "film-tv",
+      "food-drink",
+      "geography",
+    ];
+    let backgroundColor = colorChoices.filter(
+      (item) => item == req.params.category
+    );
+
+    res.render("questions", {
+      backgroundColor: backgroundColor,
+      triviaQuestion: triviaQuestion,
+      logged_in: req.session.logged_in,
+    });
   } catch (err) {
     res.status(400).json(err);
   }
