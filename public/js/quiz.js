@@ -30,3 +30,8 @@ categories.forEach(function (i) {
   i.addEventListener("click", startQuiz);
   i.addEventListener("click", getApi);
 });
+
+const button = document.querySelector(".btn");
+button.addEventListener("click", function () {
+  alert("Correct!");
+});
