@@ -17,7 +17,7 @@ const getApi = async (id) => {
 
 function startQuiz(e) {
   // console.log(e.target)
-  console.log(this);
+  // console.log(this);
 
   // getApi(this.getAttribute("id"));
 
